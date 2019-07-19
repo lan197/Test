@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Bootstrap</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Favicons -->
+	<link rel="icon" href="favicon.ico">
+	<!-- Css -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css" />
+	<link rel="stylesheet" href="css/jquery.fancybox.css" />
+	<link rel="stylesheet" href="css/swiper.min.css" />
+	<link href="http://fptshop.com.vn/Content/v3/css/fpt-shop/comment-new.css?v=2708" rel="stylesheet" />
+	<link rel="stylesheet" href="css/style.css" />
+
+	<!-- Js -->
+	<script src="js/libs/jquery-1.11.2.min.js"></script>
+	<script src="js/libs/bootstrap.min.js"></script>
+	<script src="js/libs/jquery.validate.min.js"></script>
+	<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="js/swiper.min.js"></script>
+	<script src="js/jquery.fancybox.pack.js"></script>
+	<script src="js/fix.js"></script>
+	<script src="js/functions.js"></script>
+	<script src="http://fptshop.com.vn/Scripts/v3/fpt-shop/jfpts.comment/jfpts.comment.v1_S7.js?v=2708"></script>
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<script src="js/libs/ie-emulation-modes-warning.js"></script>
+	<!--[if lt IE 9]>
+	<script src="js/libs/html5shiv.min.js"></script>
+	<script src="js/libs/respond.min.js"></script>
+	<![endif]-->
+
+
+
+	<!--<script type="text/javascript">-->
+	<!--(function () {-->
+	<!--window._klDmp = window._klDmp || [];-->
+	<!--window._klDmp.push(["_siteId:FRT1282"]);-->
+	<!--var el = document.createElement('script');-->
+	<!--el.type = 'text/javascript'; el.async = true;-->
+	<!--el.src = 'http://js.knowlead.io/dmpcollector.js';-->
+	<!--var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(el, s);-->
+	<!--})();-->
+	<!--</script>-->
+
+	<!--<script>-->
+	<!--(function (i, s, o, g, r, a, m) {-->
+	<!--i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {-->
+	<!--(i[r].q = i[r].q || []).push(arguments)-->
+	<!--}, i[r].l = 1 * new Date(); a = s.createElement(o),-->
+	<!--m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)-->
+	<!--})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');-->
+
+	<!--ga('create', 'UA-36867340-1', 'auto');-->
+	<!--ga('send', 'pageview');-->
+	<!--ga('require', 'ecommerce', 'ecommerce.js');-->
+	<!--</script>-->
+
+	<!--<script type="text/javascript">-->
+	<!--var _siteId = "512046464";-->
+	<!--(function () {-->
+	<!--var e = document.createElement("script"); e.type = "text/javascript", e.async = !0, e.src = "//st-a.anthill.vn/adx.js";-->
+	<!--var t = document.getElementsByTagName("script")[0]; t.parentNode.insertBefore(e, t)-->
+	<!--})();-->
+	<!--</script>-->
+
+</head>
+<body>
+<div class="of-header">
+	<div class="container">
+		<a href="http://fptshop.com.vn/" title="Fptshop.com.vn"><img class="of-logo" src="images/logo.png" alt="Fptshop.com.vn"></a>
+
+		<span class="of-iconmntop"><i class="glyphicon glyphicon-menu-hamburger"></i></span>
+		<ul class="of-menutop clearfix">
+			<li><a target="_blank" href="http://fptshop.com.vn/dien-thoai" title=""> <i class="of-imobile"></i> <span>Điện thoại</span> </a></li>
+			<li><a target="_blank" href="http://fptshop.com.vn/may-tinh-xach-tay" title=""> <i class="of-ilaptop"></i> <span>Laptop</span> </a></li>
+			<li><a target="_blank" href="http://fptshop.com.vn/apple" title=""> <i class="of-iapple"></i> <span>Apple</span> </a></li>
+			<li><a target="_blank" href="http://fptshop.com.vn/may-tinh-bang" title=""> <i class="of-itablet"></i> <span>Tablet</span> </a></li>
+			<li><a target="_blank" href="http://fptshop.com.vn/phu-kien" title=""> <i class="of-ipkien"></i> <span>Phụ kiện</span> </a></li>
+			<li><a target="_blank" href="http://fptshop.com.vn/may-doi-tra" title=""> <i class="of-imdt"></i> <span>Máy đổi trả</span> </a></li>
+			<li><a target="_blank" href="http://fptshop.com.vn/sim-the" title=""> <i class="of-isimthe"></i> <span>Sim thẻ</span> </a></li>
+			<li><a target="_blank" href="http://fptshop.com.vn/xa-hang" title=""> <i class="of-ixahang"></i> <span>Xả hàng</span> </a></li>
+			<li><a target="_blank" href="http://fptshop.com.vn/khuyen-mai" title=""> <i class="of-ikmai"></i> <span>Khuyến mãi</span> </a></li>
+			<li><a target="_blank" href="http://fptshop.com.vn/tin-tuc" title=""> <i class="of-itinhay"></i> <span>Tin hay</span> </a></li>
+			<li><a target="_blank" href="http://fptshop.com.vn/dien-dan" title=""> <i class="of-ihoidap"></i> <span>Hỏi đáp</span> </a></li>
+		</ul>
+
+		<div class="of-search">
+			<i class="of-isearch"></i> <span>Tìm kiếm</span>
+		</div>
+
+		<div class="of-call">
+			<a href="tel:18006601">
+				<span>Tư vấn miễn phí</span>
+				<p><i class="glyphicon glyphicon-earphone"></i>1800 6601</p>
+			</a>
+		</div>
+	</div>
+</div>
+
+<div class="of-searchbox">
+	<div class="of-searchbar">
+		<div class="container">
+			<a href="" title=""><img class="of-slogo" src="images/logo-mb.png?v=010912" alt=""></a>
+			<form id="frmSearch">
+				<div class="of-ipsearch input-group">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="button"><i class="glyphicon glyphicon-search"></i></button>
+                        </span>
+					<input type="text" class="form-control keyword" placeholder="Tìm kiếm Fptshop.com.vn">
+
+					<div class="asmr">
+						<ul class="fshop-search-cate"></ul>
+						<ul class="fshop-search-prod"></ul>
+					</div>
+
+				</div>
+			</form>
+			<span class="of-closesearch">✕</span>
+		</div>
+	</div>
+</div>
+<!--END HEADER-->
+
+<div class="opd-banner">
+	<div class="opd-bn-lg">
+		<p class="opd-bn-dk"><img src="images/icon-bn.png" alt=""></p>
+		<p class="opd-bn-mb"><img src="images/icon-mnbn.png" alt=""></p>
+	</div>
+	<div class="opd-bn-right">
+		<p><img src="images/bn-right.png" alt=""></p>
+		<div class="opd-bn-rifo">
+			<p class="opd-bn-ridt">ĐẶT TRƯỚC</p>
+			<p class="opd-bn-ridate">duy nhất 03 ngày: 7 - 9/12/2016</p>
+			<p class="opd-bn-ridt">VUI LÒNG CHỜ</p>
+			<div class="opd-bn-rcowd">
+				<span>02<label>Ngày</label></span> <i>:</i> <span>23<label>Giờ</label></span> <i>:</i> <span>52<label>Phút</label></span> <i>:</i> <span>08<label>Giây</label></span>
+			</div>
+			<a href="#opd-bn-dh" class="opd-bn-btnds" data-toggle="modal" >> Xem danh sách đặt hàng <</a>
+		</div>
+	</div>
+</div>
+<!--END BANNER-->
+<div class="opd-video">
+	<div class="p1-sec1">
+		<div class="container">
+			<div class="p1-sec1-left">
+				<div class="p1-sec1-cdown"> CÒN LẠI <span class="p1-sec1cdown"><span>2 ngày,</span> 09:50:30</span> <i></i></div>
+			</div>
+			<ul class="p1-secmn clearfix">
+				<li><a class="p1-s1ddns" href="javascript:;" title="">ĐẶC ĐIỂM <span>NỔI BẬT</span></a></li>
+				<li><a class="p1-s1ts" href="javascript:;" title="">THÔNG SỐ</a></li>
+				<li><a class="p1-s1qt" href="javascript:;" title="">QUÀ TẶNG</a></li>
+				<li><a class="p1-s1ha" href="javascript:;" title="">HÌNH ẢNH</a></li>
+				<li><a class="p1-s1ds" href="#opd-bn-dh" data-toggle="modal" title="">DANH SÁCH ĐẶT HÀNG</a></li>
+			</ul>
+			<ul class="p1-secbtn">
+				<li class="p1-se-order"><a href="#fmPopOrder" data-toggle="modal" title="" class="btn btn-danger">ĐẶT NGAY</a> </li>
+				<li class="p1-se-call"><a href="tel:18006601" title="" class="btn btn-success"><i class="glyphicon glyphicon-earphone"></i> GỌI 1800 6601</a> </li>
+			</ul>
+		</div>
+	</div>
+
+	<p><img src="images/img-s2.jpg" alt=""></p>
+	<div class="opd-video-click">
+		<a href="javascript:;" class="hvr-bob"><img src="images/icon-video.png" alt=""></a>
+	</div>
+</div>
+<!--END VIDEO-->
+<div class="opd-s2">
+	<div class="opd-s2-tb">
+		<div class="opd-s2-tdr">
+			<p class="opd-s2-tdk"><img src="images/img-s2-r.png" alt=""></p>
+			<p class="opd-s2-tmb"><img src="images/img-s2-rmb.png" alt=""></p>
+			<div class="opd-s2-tprice">
+				<h3>Trị giá 1.050.000 VND</h3>
+				<a href="javascript:;">> xem thêm hình vòng tay <</a>
+			</div>
+		</div>
+		<div class="opd-s2-tdl">
+			<div class="opd-s2-lifo">
+				<h3 class="opd-s2-litit">Quà tặng Pre-orde</h3>
+				<h2 class="opd-s2-litxt">Vòng tay thông minh H-Band</h2>
+				<p class="opd-s2-libh">(Bảo hành 01 đổi 01 trong 01 năm)</p>
+				<div class="opd-s2-tab clearfix">
+					<div class="tab-content">
+						<div role="tabpanel" class="tab-pane active" id="opd-s2-t1"><img src="images/s2-tab1.png" alt=""></div>
+						<div role="tabpanel" class="tab-pane" id="opd-s2-t2"><img src="images/s2-tab2.png" alt=""></div>
+						<div role="tabpanel" class="tab-pane" id="opd-s2-t3"><img src="images/s2-tab3.png" alt=""></div>
+					</div>
+
+					<ul class="opd-s2-tul" role="tablist">
+						<li role="presentation" class="active">
+							<a href="#opd-s2-t1" role="tab" data-toggle="tab">
+								<div class="opd-s2-tinfo">
+									<p class="opd-s2-timg"><img src="images/icon-s2-t1.png" alt=""></p>
+									<p class="opd-s2-ttxt">Kiểm tra sức khỏe</p>
+								</div>
+							</a>
+						</li>
+						<li role="presentation"><a href="#opd-s2-t2" role="tab" data-toggle="tab">
+							<div class="opd-s2-tinfo">
+								<p class="opd-s2-timg"><img src="images/icon-s2-t2.png" alt=""></p>
+								<p class="opd-s2-ttxt">Nhắc nhở vận động</p>
+							</div>
+						</a></li>
+						<li role="presentation"><a href="#opd-s2-t3" role="tab" data-toggle="tab">
+							<div class="opd-s2-tinfo">
+								<p class="opd-s2-timg"><img src="images/icon-s2-t3.png" alt=""></p>
+								<p class="opd-s2-ttxt">Thông báo</p>
+							</div>
+						</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--END S2-->
+<div class="opd-s3">
+	<div class="opd-s3-ifo">
+		<h2 class="opd-s3-itit">Phiên bản giới hạn – Đen Nhám lịch lãm – Kiểu dáng thời trang</h2>
+		<p>
+			Từng chi tiết tinh xảo được kết hợp tạo nên vẻ ngoài thời thượng và quyến rũ, giúp chiếc điện thoại 5.5 inch trông mong nhẹ thanh thoát. Mặt lưng kim loại phủ lớp màu thời thượng mang lại cảm giác tinh tế, tự tin hơn khi cầm trên tay.
+		</p>
+	</div>
+	<ul class="opd-s3-ul">
+		<li><img src="images/img-s31.jpg" alt=""></li>
+		<li><img src="images/img-s32.jpg" alt=""></li>
+		<li><img src="images/img-s33.jpg" alt=""></li>
+		<li><img src="images/img-s34.jpg" alt=""></li>
+	</ul>
+</div>
+<!--END S3-->
+<div class="opd-s31">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 col-xs-12">
+				<div class="opd-s31-left">
+					<h2 class="opd-s31-ltit">Camera trước 16MP</h2>
+					<h3 class="opd-s31-ltxt">Sáng hơn – Sắc nét hơn</h3>
+					<p>
+						Selfie đâu chỉ là chuyện của con gái. Với độ phân giải 16MP cùng cảm biến 1/3.1 inch và khẩu độ lớn f/2.0, camera trước của OPPO F1s sẵn sàng làm hài lòng bất cứ ai yêu thích selfie và hơn thế nữa.
+					</p>
+					<p>
+						Đẹp tự nhiên trong mọi hoàn cảnh chính là điều OPPO F1s sẽ mang đến cho bạn.
+					</p>
+					<p class="opd-s31-limg"><img src="images/icon-s31.png" alt=""></p>
+				</div>
+			</div>
+			<div class="col-sm-6 col-xs-12">
+				<p class="text-right opd-s31-rimg"><img src="images/img-s3-1r.png" alt=""></p>
+			</div>
+		</div>
+	</div>
+</div>
+<!--END S31-->
+<div class="opd-s32">
+	<div class="container">
+		<div class="opd-s32-info">
+			<h2 class="opd-s32-itit">Camera sau 13MP</h2>
+			<h3 class="opd-s32-itit2">Chụp đêm sống động trong mọi hoàn cảnh</h3>
+			<p class="opd-s32-ixt">
+				Không chỉ sở hữu camera trước selfie đẹp, cụm camera sau 13MP của F1s cũng đem lại nhiều trải nghiệm chụp ảnh thú vị. Bạn có thể linh hoạt sử dụng chế độ Ultra-HD cho bức ảnh sắc nét gấp 1,5 lần so với thông thường, chụp các chuyển động trên sàn
+			</p>
+		</div>
+	</div>
+</div>
+<!--END S32-->
+<div class="opd-s33">
+	<div class="container">
+		<div class="opd-s33-info">
+			<h2 class="opd-s33-tit">Khóa vân tay siêu nhạy</h2>
+			<h3 class="opd-s33-tit2">Mở ngay app bất kỳ với mỗi dấu vân tay</h3>
+			<p class="opd-s33-img"><img src="images/icon-vt.png" alt=""></p>
+			<p class="opd-s33-txt">
+				Bấm vân tay mở ngay camera selfie và nhiều ứng dụng khác thật dễ dàng. Càng thường xuyên sử dụng, bộ cảm biến sẽ càng nhạy hơn và tốc độ mở khóa nhanh hơn nhờ cơ chế tự sao chép thông minh.
+			</p>
+		</div>
+	</div>
+</div>
+
+<div class="opd-s4">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 col-xs-12">
+				<div class="opd-s4-info">
+					<h2 class="opd-s4-itit">Nhận máy OPPO F1s </h2>
+					<h3 class="opd-s4-itit2">DUY NHẤT</h3>
+					<p class="opd-s4-idate">10.02.2016</p>
+					<ul class="opd-s4-iul">
+						<li><a href="#opd-s4-ds" data-toggle="modal">> THÔNG TIN CHI TIẾT <</a></li>
+						<li><a href="#opd-s4-dd" data-toggle="modal">> DANH SÁCH ĐỊA ĐIỂM <</a></li>
+					</ul>
+					<div class="opd-s4-even">
+						<p>Các quà tặng khi tham gia activation tại event</p>
+						<p>Tiệc nhẹ tại event</p>
+						<p>Cơ hội giao lưu ca sĩ</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+<!--END S4-->
+<div class="opd-s5">
+	<h2 class="opd-s5-tit">Album hình thực tế <strong>OPPO F1s</strong></h2>
+
+	<ul class="opd-s5-ul">
+
+		<li>
+			<a href="images/img-s51.jpg" rel="fancybox-button" class="opd-s5-uimg fancybox">
+				<span style="background-image: url('images/img-s51.jpg'); background-size: cover;"></span>
+			</a>
+		</li>
+		<li>
+			<a href="images/img-s52.jpg" rel="fancybox-button" class="opd-s5-uimg fancybox">
+				<span style="background-image: url('images/img-s52.jpg'); background-size: cover;"></span>
+			</a>
+		</li>
+		<li>
+			<a href="images/img-s53.jpg" rel="fancybox-button" class="opd-s5-uimg fancybox">
+				<span style="background-image: url('images/img-s53.jpg'); background-size: cover;"></span>
+			</a>
+		</li>
+		<li>
+			<a href="images/img-s53.jpg" rel="fancybox-button" class="opd-s5-uimg fancybox">
+				<span style="background-image: url('images/img-s53.jpg'); background-size: cover;"></span>
+			</a>
+		</li>
+		<li>
+			<a href="images/img-s51.jpg" rel="fancybox-button" class="opd-s5-uimg fancybox">
+				<span style="background-image: url('images/img-s51.jpg'); background-size: cover;"></span>
+			</a>
+		</li>
+		<li>
+			<a href="images/img-s51.jpg" rel="fancybox-button" class="opd-s5-uimg fancybox">
+				<span style="background-image: url('images/img-s51.jpg'); background-size: cover;"></span>
+			</a>
+		</li>
+		<li>
+			<a href="images/img-s51.jpg" rel="fancybox-button" class="opd-s5-uimg fancybox">
+				<span style="background-image: url('images/img-s51.jpg'); background-size: cover;"></span>
+			</a>
+		</li>
+		<li>
+			<a href="images/img-s51.jpg" rel="fancybox-button" class="opd-s5-uimg fancybox">
+				<span style="background-image: url('images/img-s51.jpg'); background-size: cover;"></span>
+			</a>
+		</li>
+	</ul>
+</div>
+<!--END S5-->
+<div class="opd-s6">
+	<div class="container">
+		<h2 class="opd-s6-tit">Thông số kỹ thuật <strong>OPPO F1s Đen Nhám</strong></h2>
+		<div class="opd-s6-main">
+			<div class="opd-s6-info  mCustomScrollbar">
+				<ul class="opd-s6-iul">
+					<li>
+						<label>Màu sắc:</label>
+						<p>Đen Nhám - Phiên bản giới hạn</p>
+					</li>
+					<li>
+						<label>Kích thước</label>
+						<p>5.5 inche</p>
+					</li>
+					<li>
+						<label>Camera sau</label>
+						<p>13 MP</p>
+					</li>
+					<li>
+						<label>Camera trước</label>
+						<p>16 MP</p>
+					</li>
+					<li>
+						<label>GPU</label>
+						<p>Mali-T860 MP2</p>
+					</li>
+					<li>
+						<label>RAM</label>
+						<p>3GB</p>
+					</li>
+					<li>
+						<label>Dung lượng</label>
+						<p>32GB (mở rộng đến128GB)</p>
+					</li>
+					<li>
+						<label>Pin</label>
+						<p>3.075mAh (Pin liền)</p>
+					</li>
+					<li>
+						<label>Vi xử lý</label>
+						<p>MT6750, Octa-core 1.5GHz</p>
+					</li>
+					<li>
+						<label>Vi xử lý</label>
+						<p>MT6750, Octa-core 1.5GHz</p>
+					</li>
+					<li>
+						<label>Vi xử lý</label>
+						<p>MT6750, Octa-core 1.5GHz</p>
+					</li>
+					<li>
+						<label>Vi xử lý</label>
+						<p>MT6750, Octa-core 1.5GHz</p>
+					</li>
+				</ul>
+			</div>
+			<div class="opd-s6-ibtn">
+				<a href="javascript:;" class="opd-s6-btnxt">Xem thêm</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!--END S6-->
+<div class="opd-s7">
+	<h2 class="opd-s7-tit">Tin tức về <strong>OPPO F1s</strong></h2>
+	<div class="opd-s7-slide">
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<a href="javascript:;">
+						<p><img src="images/img-slide.jpg" alt=""></p>
+						<p class="opd-s7-stxt">
+							Vài tính năng vui vẻ hay trên ColorOS của OPPO F1s: vân tay, khóa app, gợi ý tối ưu máy
+						</p>
+					</a>
+				</div>
+				<div class="swiper-slide">
+					<a href="javascript:;">
+						<p><img src="images/img-slide.jpg" alt=""></p>
+						<p class="opd-s7-stxt">
+							Vài tính năng vui vẻ hay trên ColorOS của OPPO F1s: vân tay, khóa app, gợi ý tối ưu máy
+						</p>
+					</a>
+				</div>
+				<div class="swiper-slide">
+					<a href="javascript:;">
+						<p><img src="images/img-slide.jpg" alt=""></p>
+						<p class="opd-s7-stxt">
+							Vài tính năng vui vẻ hay trên ColorOS của OPPO F1s: vân tay, khóa app, gợi ý tối ưu máy
+						</p>
+					</a>
+				</div>
+				<div class="swiper-slide">
+					<a href="javascript:;">
+						<p><img src="images/img-slide.jpg" alt=""></p>
+						<p class="opd-s7-stxt">
+							Vài tính năng vui vẻ hay trên ColorOS của OPPO F1s: vân tay, khóa app, gợi ý tối ưu máy
+						</p>
+					</a>
+				</div>
+				<div class="swiper-slide">
+					<a href="javascript:;">
+						<p><img src="images/img-slide.jpg" alt=""></p>
+						<p class="opd-s7-stxt">
+							Vài tính năng vui vẻ hay trên ColorOS của OPPO F1s: vân tay, khóa app, gợi ý tối ưu máy
+						</p>
+					</a>
+				</div>
+				<div class="swiper-slide">
+					<a href="javascript:;">
+						<p><img src="images/img-slide.jpg" alt=""></p>
+						<p class="opd-s7-stxt">
+							Vài tính năng vui vẻ hay trên ColorOS của OPPO F1s: vân tay, khóa app, gợi ý tối ưu máy
+						</p>
+					</a>
+				</div>
+				<div class="swiper-slide">
+					<a href="javascript:;">
+						<p><img src="images/img-slide.jpg" alt=""></p>
+						<p class="opd-s7-stxt">
+							Vài tính năng vui vẻ hay trên ColorOS của OPPO F1s: vân tay, khóa app, gợi ý tối ưu máy
+						</p>
+					</a>
+				</div>
+			</div>
+			<!-- Add Pagination -->
+		</div>
+		<div class="swiper-pagination opd-s7-pagi"></div>
+	</div>
+</div>
+<!--<div class="ttct-cmt">-->
+<!--<div class="container">-->
+<!--<div class="fshop-cmtbox" data-modul="3" id="wrapper-nt-comment"></div>-->
+<!--</div>-->
+<!--</div>-->
+
+<div class="modal fade" id="opd-bn-dh" tabindex="-1" role="dialog">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content opd-pop-content opd-poptb-content">
+			<div class="modal-header">
+				<span class="spop-close" data-dismiss="modal"><a href="#">✕</a></span>
+				<h2 class="i7-modal-tit">Hiện tại có <strong>9.678</strong> người đặt mua</h2>
+				<ul class="opd-bn-popin clearfix">
+					<li>
+						<input type="checkbox" class="p1-s4rad" id="p1s4rad2">
+						<label for="p1s4rad2" class="p1-s4lb">Chỉ hiển thị danh sách đặt cọc</label>
+					</li>
+					<li>
+						<input type="text" class="form-control opd-bn-dhinput" placeholder="Nhập số điện thoại cần tìm...">
+					</li>
+				</ul>
+			</div>
+			<div class="modal-body">
+				<div class="p1-s4table opd-bn-table mCustomScrollbar _mCS_1">
+					<table class="table table-striped">
+						<thead>
+						<tr>
+							<td>Số thứ tự</td>
+							<td>Tên khách hàng</td>
+							<td>Điện thoại</td>
+							<td>Trạng thái</td>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<td>123</td>
+							<td>Nguyễn Văn Anh</td>
+							<td>0986222xxx</td>
+							<td>Ngày 12/12/2016 </td>
+						</tr>
+						<tr>
+							<td>123</td>
+							<td>Nguyễn Văn Anh</td>
+							<td>0986222xxx</td>
+							<td>Ngày 12/12/2016 </td>
+						</tr>
+						<tr>
+							<td>123</td>
+							<td>Nguyễn Văn Anh</td>
+							<td>0986222xxx</td>
+							<td>Ngày 12/12/2016 </td>
+						</tr>
+						<tr>
+							<td>123</td>
+							<td>Nguyễn Văn Anh</td>
+							<td>0986222xxx</td>
+							<td>Ngày 12/12/2016 </td>
+						</tr>
+						<tr>
+							<td>123</td>
+							<td>Nguyễn Văn Anh</td>
+							<td>0986222xxx</td>
+							<td>Ngày 12/12/2016 </td>
+						</tr>
+						<tr>
+							<td>123</td>
+							<td>Nguyễn Văn Anh</td>
+							<td>0986222xxx</td>
+							<td>Ngày 12/12/2016 </td>
+						</tr>
+						<tr>
+							<td>123</td>
+							<td>Nguyễn Văn Anh</td>
+							<td>0986222xxx</td>
+							<td>Ngày 12/12/2016 </td>
+						</tr>
+						<tr>
+							<td>123</td>
+							<td>Nguyễn Văn Anh</td>
+							<td>0986222xxx</td>
+							<td>Ngày 12/12/2016 </td>
+						</tr>
+						<tr>
+							<td>123</td>
+							<td>Nguyễn Văn Anh</td>
+							<td>0986222xxx</td>
+							<td>Ngày 12/12/2016 </td>
+						</tr>
+						<tr>
+							<td>123</td>
+							<td>Nguyễn Văn Anh</td>
+							<td>0986222xxx</td>
+							<td>Ngày 12/12/2016 </td>
+						</tr>
+						<tr>
+							<td>123</td>
+							<td>Nguyễn Văn Anh</td>
+							<td>0986222xxx</td>
+							<td>Ngày 12/12/2016 </td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="opd-s4-ds" tabindex="-1" role="dialog">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content opd-pop-content">
+			<div class="modal-header">
+				<span class="spop-close" data-dismiss="modal"><a href="#">✕</a></span>
+				<h2 class="i7-modal-tit">Thể lệ chương trình</h2>
+			</div>
+			<div class="modal-body">
+				<div class="p1-s4ttle mCustomScrollbar">
+					<h3 class="opd-pop-tit">THỂ LỆ THAM GIA:</h3>
+					<p><strong>Thời gian:</strong>Áp dụng từ 05/04/2016</p>
+					<p><strong>Ưu đãi:</strong> khách hàng mua Galaxy S7, S7 edge nhận được tới <strong>9 ưu đãi khủng</strong>:</p>
+					<ul>
+						<li><strong>1:</strong> Trả góp Home Credit 0% lãi suất, trả trước 40%, kỳ hạn 6 tháng </li>
+						<li><strong>2:</strong> Tặng Sạc dự phòng nhanh Samsung 5200mAh (không áp dụng trả góp 0%)</li>
+						<li><strong>3:</strong> Sim Đại Phát 0888xxxxx8 (không áp dụng trả góp 0%)</li>
+						<li><strong>4:</strong> 3 tháng cước 3G trị giá 210.000đ (không áp dụng trả góp 0%)</li>
+						<li><strong>5:</strong> Phiếu mua hàng 220.000đ áp dụng mua Sạc dự phòng 6000mAh hoặc 10000mAh</li>
+						<li><strong>6:</strong> Gói chăm sóc đặc quyền: 1 đổi 1, hỗ trợ kỹ thuật tận nhà, Hotline VIP <a href="http://fptshop.com.vn/samsung-galaxy-s7/dac-quyen">Xem chi tiết</a></li>
+						<li><strong>8:</strong> Cơ hội trúng thưởng 27 Galaxy S7</li>
+						<li><strong>9:</strong> Cơ hội trúng thưởng 300 Tivi Samsung 32”</li>
+					</ul>
+
+					<p><strong>Thời gian mở bán:</strong>Từ 18/03/2016</p>
+					<p><strong>Ưu đãi:</strong> khách hàng mua Galaxy S7, S7 edge chọn 1 trong 3 gói khuyến mãi sau:</p>
+					<ul>
+						<li><strong>KM1:</strong> Trả góp Home Credit 0% lãi suất, trả trước 40%, kỳ hạn 6 tháng</li>
+						<li><strong>KM2:</strong> Tặng Sạc dự phòng nhanh Samsung 5200mAh + Sim Đại Phát 088</li>
+						<li><strong>KM3:</strong> Trả góp 0% bằng thẻ tín dụng + Sạc dự phòng nhanh Samsung 5200mAh + Sim Đại Phát 088 (áp dụng từ 14h 22/03)</li>
+					</ul>
+					<p><strong>Ngoài 1 trong 3 gói khuyến mãi trên, khách hàng nhận thêm: </strong></p>
+					<ul>
+						<li><strong>Gói ưu đãi đặc quyền:</strong> phòng chờ máy bay hạng thương gia, cafe/xem phim miễn phí rạp CGV, gói game trị giá 200USD... <a style="text-decoration:underline;color:blue;" target="_blank" href="http://fptshop.com.vn/samsung-galaxy-s7/dac-quyen">Xem chi tiết</a></li>
+						<li><strong>Gói chăm sóc đặc quyền:</strong> 1 đổi 1, hỗ trợ kỹ thuật tận nhà, Hotline VIP <a style="text-decoration:underline;color:blue;" target="_blank" href="http://fptshop.com.vn/samsung-galaxy-s7/dac-quyen">Xem chi tiết</a></li>
+						<li><strong>Cơ hội trúng thưởng 27 Galaxy S7</strong> dành cho khách hàng mua hàng từ 01/03 - 30/04 (không áp dụng cho khách hàng đã trúng thưởng đợt 1).</li>
+						<li><strong>Khuyến mãi phụ kiện giảm tới 30%</strong> khi mua kèm <a style="text-decoration:underline;color:blue;" target="_blank" href="http://fptshop.com.vn/tin-tuc/Tin-khuyen-mai/giam-gia-phu-kien-theo-combo-khi-mua-galaxy-s7-s7-edge-tai-fptshop-39128">tại đây</a>.</li>
+					</ul>
+					<p><strong>Lưu ý:</strong> Không áp dụng đối với đơn hàng đặt cọc từ 01/03 đến 17/03.</p>
+					<p><strong>Thời gian đặt cọc: </strong>01/03/2016 - 22h00 17/03/2016</p>
+					<p><strong>Ưu đãi: </strong></p>
+					<p><strong>- Từ 01/03 đến 12h00 03/03:</strong> khách hàng may mắn có cơ hội nhận được</p>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="opd-s4-dd" tabindex="-1" role="dialog">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content opd-pop-content opd-poptb-content">
+			<div class="modal-header">
+				<span class="spop-close" data-dismiss="modal"><a href="#">✕</a></span>
+				<h2 class="i7-modal-tit">Thể lệ chương trình</h2>
+			</div>
+			<div class="modal-body">
+				<div class="p1-s4table mCustomScrollbar _mCS_1">
+					<table class="table table-striped">
+						<thead>
+						<tr>
+							<td>Số</td>
+							<td>
+								<div class="opd-tb-input">
+									<p><span>Cửa hàng</span>
+										<select class="form-control">
+											<option>--Chọn tỉnh thành--</option>
+											<option>Hà Nội</option>
+											<option>Hồ Chính Minh</option>
+											<option>Hải Phòng</option>
+											<option>Đà Nẵng</option>
+										</select>
+									</p>
+								</div>
+							</td>
+							<td>Điện thoại</td>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<td>123</td>
+							<td>Nguyễn Văn Anh</td>
+							<td>0986222xxx</td>
+						</tr>
+						<tr>
+							<td>123</td>
+							<td>Nguyễn Văn Anh</td>
+							<td>0986222xxx</td>
+						</tr>
+						<tr>
+							<td>123</td>
+							<td>Nguyễn Văn Anh</td>
+							<td>0986222xxx</td>
+						</tr>
+						<tr>
+							<td>123</td>
+							<td>Nguyễn Văn Anh</td>
+							<td>0986222xxx</td>
+						</tr>
+						<tr>
+							<td>123</td>
+							<td>Nguyễn Văn Anh</td>
+							<td>0986222xxx</td>
+						</tr>
+						<tr>
+							<td>123</td>
+							<td>Nguyễn Văn Anh</td>
+							<td>0986222xxx</td>
+						</tr>
+						<tr>
+							<td>123</td>
+							<td>Nguyễn Văn Anh</td>
+							<td>0986222xxx</td>
+						</tr>
+						<tr>
+							<td>123</td>
+							<td>Nguyễn Văn Anh</td>
+							<td>0986222xxx</td>
+						</tr>
+						<tr>
+							<td>123</td>
+							<td>Nguyễn Văn Anh</td>
+							<td>0986222xxx</td>
+						</tr>
+						<tr>
+							<td>123</td>
+							<td>Nguyễn Văn Anh</td>
+							<td>0986222xxx</td>
+						</tr>
+						<tr>
+							<td>123</td>
+							<td>Nguyễn Văn Anh</td>
+							<td>0986222xxx</td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--POP DATHANG-->
+<div class="modal fade" id="fmPopOrder" tabindex="-1" role="dialog">
+	<div class="OrderProd modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<span class="spop-close" data-dismiss="modal"><a href="#">✕</a></span>
+				<h2 class="i7-modal-tit2">Đặt cọc iPhone 7 Plus, iPhone 7</h2>
+			</div>
+			<div class="modal-body">
+				<div class="ip-dathangbox">
+					<div class="row">
+						<div class="col-md-5 col-sm-12 ip7-col3">
+							<div class="ip-pif-img">
+								<img id="product-image" src="images/pop/img-pop.png" alt="">
+							</div>
+							<div class="i7-price">
+								<p class="ip-ppricec">
+									Giá: <span><b id="product-price">5.990.000đ</b></span>
+								</p>
+							</div>
+						</div>
+						<div class="col-md-7 col-sm-12 ">
+							<h2 class="ip-pif-head">Thông tin đặt hàng</h2>
+							<ul class="i7-pformul">
+								<li>
+									<input type="text" class="form-control" placeholder="Họ tên">
+								</li>
+								<li>
+									<input type="text" class="form-control" placeholder="Số điện thoại">
+								</li>
+								<li>
+									<input type="text" class="form-control" placeholder="Email">
+								</li>
+							</ul>
+							<ul class="i7-pfbtn">
+								<li><button type="button" class="btn i7-pfbtn-pay">mua ngay</button></li>
+								<li><button type="button" class="btn i7-pfbtn-pay" id="i7-pfbtn-payon">Thanh toán online</button></li>
+								<li><button type="button" class="btn i7-pfbtn-call">Gọi <span>1800 6601</span></button></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<footer class="of-footer">
+	<div class="container">
+		<div class="of-footer-link">
+			<a target="_blank" href="http://fptshop.com.vn/huong-dan/huong-dan-mua-hang" title="Hướng dẫn mua hàng">Hướng dẫn mua hàng</a> |
+			<a target="_blank" href="http://fptshop.com.vn/ho-tro/chinh-sach-tra-gop" title="Trả góp">Trả góp</a> |
+			<a target="_blank" href="http://fptshop.com.vn/ho-tro/chinh-sach-bao-hanh" title="Chính sách bảo hành">Chính sách bảo hành</a>
+		</div>
+		<p>Công Ty Cổ Phần Bán Lẻ Kỹ Thuật Số FPT - 261,263 Khánh Hội, P5, Q4, TP. Hồ Chí Minh.</p>
+		<p>Điện thoại: 08.73023456. Fax: 08.39435773. Email: cskh@fptshop.com.vn</p>
+	</div>
+</footer>
+</body>
+</html>

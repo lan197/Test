@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Bootstrap</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Favicons -->
+	<link rel="icon" href="favicon.ico">
+	<!-- Css -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/reset.css" />
+	<link href="http://fptshop.com.vn/Content/v3/css/fpt-shop/comment-new.css?v=2708" rel="stylesheet" />
+	<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css" />
+	<link rel="stylesheet" href="css/style.css" />
+
+	<!-- Js -->
+	<script src="js/libs/jquery-1.11.2.min.js"></script>
+	<script src="js/libs/bootstrap.min.js"></script>
+	<script src="js/libs/jquery.validate.min.js"></script>
+	<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="js/functions.js"></script>
+	<script src="http://fptshop.com.vn/Scripts/v3/fpt-shop/jfpts.comment/jfpts.comment.v1.js?v=2702171"></script>
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<script src="js/libs/ie-emulation-modes-warning.js"></script>
+	<!--[if lt IE 9]>
+	<script src="js/libs/html5shiv.min.js"></script>
+	<script src="js/libs/respond.min.js"></script>
+	<![endif]-->
+	<!--<script type="text/javascript">-->
+	<!--(function () {-->
+	<!--window._klDmp = window._klDmp || [];-->
+	<!--window._klDmp.push(["_siteId:FRT1282"]);-->
+	<!--var el = document.createElement('script');-->
+	<!--el.type = 'text/javascript'; el.async = true;-->
+	<!--el.src = 'http://js.knowlead.io/dmpcollector.js';-->
+	<!--var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(el, s);-->
+	<!--})();-->
+	<!--</script>-->
+
+	<!--<script>-->
+	<!--(function (i, s, o, g, r, a, m) {-->
+	<!--i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {-->
+	<!--(i[r].q = i[r].q || []).push(arguments)-->
+	<!--}, i[r].l = 1 * new Date(); a = s.createElement(o),-->
+	<!--m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)-->
+	<!--})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');-->
+
+	<!--ga('create', 'UA-36867340-1', 'auto');-->
+	<!--ga('send', 'pageview');-->
+	<!--ga('require', 'ecommerce', 'ecommerce.js');-->
+	<!--</script>-->
+
+	<!--<script type="text/javascript">-->
+	<!--var _siteId = "512046464";-->
+	<!--(function () {-->
+	<!--var e = document.createElement("script"); e.type = "text/javascript", e.async = !0, e.src = "//st-a.anthill.vn/adx.js";-->
+	<!--var t = document.getElementsByTagName("script")[0]; t.parentNode.insertBefore(e, t)-->
+	<!--})();-->
+	<!--</script>-->
+
+</head>
+<body>
+<div class="of-header">
+	<div class="container">
+		<a href="http://fptshop.com.vn/" title="Fptshop.com.vn"><img class="of-logo" src="images/logo.png" alt="Fptshop.com.vn"></a>
+
+		<span class="of-iconmntop"><i class="glyphicon glyphicon-menu-hamburger"></i></span>
+		<ul class="of-menutop clearfix">
+			<li><a target="_blank" href="http://fptshop.com.vn/dien-thoai" title=""> <i class="of-imobile"></i> <span>Điện thoại</span> </a></li>
+			<li><a target="_blank" href="http://fptshop.com.vn/may-tinh-xach-tay" title=""> <i class="of-ilaptop"></i> <span>Laptop</span> </a></li>
+			<li><a target="_blank" href="http://fptshop.com.vn/apple" title=""> <i class="of-iapple"></i> <span>Apple</span> </a></li>
+			<li><a target="_blank" href="http://fptshop.com.vn/may-tinh-bang" title=""> <i class="of-itablet"></i> <span>Tablet</span> </a></li>
+			<li><a target="_blank" href="http://fptshop.com.vn/phu-kien" title=""> <i class="of-ipkien"></i> <span>Phụ kiện</span> </a></li>
+			<li><a target="_blank" href="http://fptshop.com.vn/may-doi-tra" title=""> <i class="of-imdt"></i> <span>Máy đổi trả</span> </a></li>
+			<li><a target="_blank" href="http://fptshop.com.vn/sim-the" title=""> <i class="of-isimthe"></i> <span>Sim thẻ</span> </a></li>
+			<li><a target="_blank" href="http://fptshop.com.vn/xa-hang" title=""> <i class="of-ixahang"></i> <span>Xả hàng</span> </a></li>
+			<li><a target="_blank" href="http://fptshop.com.vn/khuyen-mai" title=""> <i class="of-ikmai"></i> <span>Khuyến mãi</span> </a></li>
+			<li><a target="_blank" href="http://fptshop.com.vn/tin-tuc" title=""> <i class="of-itinhay"></i> <span>Tin hay</span> </a></li>
+			<li><a target="_blank" href="http://fptshop.com.vn/dien-dan" title=""> <i class="of-ihoidap"></i> <span>Hỏi đáp</span> </a></li>
+		</ul>
+
+		<div class="of-search">
+			<i class="of-isearch"></i> <span>Tìm kiếm</span>
+		</div>
+
+		<div class="of-call">
+			<a href="tel:18006601">
+				<span>Tư vấn miễn phí</span>
+				<p><i class="glyphicon glyphicon-earphone"></i>1800 6601</p>
+			</a>
+		</div>
+	</div>
+</div>
+
+<div class="of-searchbox">
+	<div class="of-searchbar">
+		<div class="container">
+			<a href="" title=""><img class="of-slogo" src="images/logo-mb.png?v=010912" alt=""></a>
+			<form id="frmSearch">
+				<div class="of-ipsearch input-group">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="button"><i class="glyphicon glyphicon-search"></i></button>
+                        </span>
+					<input type="text" class="form-control keyword" placeholder="Tìm kiếm Fptshop.com.vn">
+
+					<div class="asmr">
+						<ul class="fshop-search-cate"></ul>
+						<ul class="fshop-search-prod"></ul>
+					</div>
+
+				</div>
+			</form>
+			<span class="of-closesearch">✕</span>
+		</div>
+	</div>
+</div>
+
+<!--END HEADER-->
+<style>
+	.lt-banner{
+		padding: 160px 0 20px;
+		background: url("images/3105/bg.png") no-repeat top center;
+		background-size: cover;
+	}
+	.lt-bn-ifo{
+		text-align: center;
+	}
+	.lt-bnmn,
+	.lt-bnmn:hover,
+	.lt-bnmn:active,
+	.lt-bnmn:focus{
+		display: inline-block;
+		width: 178px;
+		height: 43px;
+		text-align: center;
+		line-height: 43px;
+		box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
+		background: url("images/3105/btn.png") no-repeat center;
+		background-size: cover;
+		color: #60c1f5;
+		font-size: 18px;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 700;
+		margin: 15px 0 0 0;
+	}
+	.lt-bn-imimg{
+		display: none;
+	}
+	@media (max-width: 768px) {
+		.lt-bn-imimg{
+			display: block;
+		}
+		.lt-bn-img{
+			display: none;
+		}
+		.lt-banner{
+			padding: 96px 0 20px;
+		}
+	}
+</style>
+<div class="lt-banner">
+	<div class="container">
+		<div class="lt-bn-ifo">
+			<p class="lt-bn-img"><img src="images/3105/banner.png" alt=""></p>
+			<p class="lt-bn-imimg"><img src="images/3105/mbn.png" alt=""></p>
+			<a href="javascript:;" class="lt-bnmn">MUA NGAY</a>
+		</div>
+	</div>
+</div>
+<!--END BANNER-->
+<!--END GAME-->
+<div class="lt-us2">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 col-xs-12">
+				<div class="lt-uifo">
+					<p class="lt-ukm"><img src="images/2404/s2l.png" alt=""></p>
+					<p class="lt-mukm"><img src="images/2404/s2ml.png" alt=""></p>
+					<a href="javascript:;" class="lt-us2btn">MUA NGAY</a>
+				</div>
+			</div>
+			<div class="col-sm-6 col-xs-12">
+				<p class="lt-us2r"><img src="images/2404/s2r.png" alt=""></p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="lt-us3">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-5 col-xs-12 col-sm-push-7">
+				<div class="lt-us3r">
+					<p class="lt-us3t"><img src="images/2404/t3.png" alt=""></p>
+					<p class="lt-ukm2"><img src="images/2404/s3r.png" alt=""></p>
+					<p class="lt-mukm2"><img src="images/2404/s3mr.png" alt=""></p>
+					<a href="javascript:;" class="lt-us2btn">MUA NGAY</a>
+				</div>
+			</div>
+			<div class="col-sm-7 col-xs-12 col-sm-pull-5">
+				<p class="lt-us3l"><img src="images/2404/s3l.png" alt=""></p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="lt-us4">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 col-xs-12">
+				<div class="lt-uifo lt-u4ifo">
+					<p><img src="images/2404/t4.png" alt=""></p>
+					<p class="lt-us4img"><img src="images/2404/s4l.png" alt=""></p>
+					<a href="javascript:;" class="lt-us2btn">MUA NGAY</a>
+				</div>
+			</div>
+			<div class="col-sm-6 col-xs-12">
+				<p class="lt-us2r"><img src="images/2404/s4r.png" alt=""></p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="lt-us5">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 col-xs-12 col-sm-push-6">
+				<div class="lt-us5r">
+					<p class="lt-us3t"><img src="images/2404/t5.png" alt=""></p>
+					<p class="lt-us5km"><img src="images/2404/s5r.png" alt=""></p>
+					<a href="javascript:;" class="lt-us2btn">MUA NGAY</a>
+				</div>
+			</div>
+			<div class="col-sm-6 col-xs-12 col-sm-pull-6">
+				<p class="lt-us5l"><img src="images/2404/s5l.png" alt=""></p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="lt-us7">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 col-xs-12">
+				<div class="lt-uifo lt-u7ifo">
+					<p><img src="images/2404/t7.png" alt=""></p>
+					<p class="lt-us5km lt-us7km"><img src="images/2404/s7l.png" alt=""></p>
+					<p class="lt-umkm"><img src="images/2404/s7ml.png" alt=""></p>
+					<a href="javascript:;" class="lt-us2btn">MUA NGAY</a>
+				</div>
+			</div>
+			<div class="col-sm-6 col-xs-12">
+				<p class="lt-us7r"><img src="images/2404/s7r.png" alt=""></p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="lt-ugame">
+	<div class="container">
+		<h2 class="lt-ugtit"><img src="images/1801/t-g.png" alt=""></h2>
+		<ul class="lt-ugul clearfix">
+			<li><a href="javascript:;"><img src="images/1801/i-g.png" alt=""></a></li>
+			<li><a href="javascript:;"><img src="images/1801/i-g.png" alt=""></a></li>
+			<li><a href="javascript:;"><img src="images/1801/i-g.png" alt=""></a></li>
+		</ul>
+	</div>
+</div>
+
+<div class="lt-ugmobile">
+	<div class="lt-ug1">
+		<p class="lt-ugbg"><img src="images/1801/g1.png" alt=""></p>
+		<p class="lt-ugm-tit"><img src="images/1801/tit2.png" alt=""></p>
+		<a href="javascript:;" class="lt-ugimg"><img src="images/1801/i-g.png" alt=""></a>
+	</div>
+	<div class="lt-ug1">
+		<p class="lt-ugbg"><img src="images/1801/g2.png" alt=""></p>
+		<a href="javascript:;" class="lt-ugimg"><img src="images/1801/i-g.png" alt=""></a>
+	</div>
+	<div class="lt-ug1">
+		<p class="lt-ugbg"><img src="images/1801/g3.png" alt=""></p>
+		<a href="javascript:;" class="lt-ugimg"><img src="images/1801/i-g.png" alt=""></a>
+	</div>
+</div>
+<div class="lt-us6">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-7 col-xs-12 col-sm-push-5">
+				<div class="lt-uifo lt-u6ifo">
+					<p><img src="images/0903/t6.png" alt=""></p>
+					<a href="javascript:;" class="lt-us2btn">MUA NGAY</a>
+				</div>
+			</div>
+			<div class="col-sm-5 col-xs-12 col-sm-pull-7">
+				<p class="lt-us2r lt-us6r"><img src="images/0903/s6r.png" alt=""></p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="ltb-prod">
+	<div class="container">
+		<h2 class="ltb-ptit">DANH SÁCH SẢN PHẨM GAMING BÁN CHẠY NHẤT TẠI FPT SHOP</h2>
+		<ul class="ltb-pul clearfix">
+			<li>
+				<div class="ltb-puifo">
+					<p class="ltb-puimg"><img src="images/prod.png" alt=""></p>
+					<h3 class="ltb-puitit">Asus E402SA-WX043D/ Celeron N3050/RAM 2G/HDD</h3>
+					<div class="ltb-putifo mCustomScrollbar">
+						<ul class="ltb-puts">
+							<li><p>Bộ xử lý: Intel Core i5-7200U</p></li>
+							<li><p>RAM: 4 GB</p></li>
+							<li><p>HDD: 500 GB</p></li>
+						</ul>
+					</div>
+					<p class="ltb-puprime">15.990.000đ</p>
+					<div class="ltb-pukm">
+						<p>Lì xì thêm 100.000đ áp dụng từ 21/02 đến 28/02 (không áp dụng kèm trả góp 0%, F.Friends) </p>
+						<p>Cơ hội trúng vàng 9999</p>
+					</div>
+					<a href="javascript:;" class="ltb-pbtn">Đặt ngay</a>
+				</div>
+			</li>
+			<li>
+				<div class="ltb-puifo">
+					<p class="ltb-puimg"><img src="images/prod.png" alt=""></p>
+					<h3 class="ltb-puitit">Asus E402SA-WX043D/ Celeron N3050/RAM 2G/HDD</h3>
+					<div class="ltb-putifo mCustomScrollbar">
+						<ul class="ltb-puts">
+							<li><p>Bộ xử lý: Intel Core i5-7200U</p></li>
+							<li><p>RAM: 4 GB</p></li>
+							<li><p>HDD: 500 GB</p></li>
+						</ul>
+					</div>
+					<p class="ltb-puprime">15.990.000đ</p>
+					<div class="ltb-pukm">
+						<p>Lì xì thêm 100.000đ áp dụng từ 21/02 đến 28/02 (không áp dụng kèm trả góp 0%, F.Friends) </p>
+						<p>Cơ hội trúng vàng 9999</p>
+					</div>
+					<a href="javascript:;" class="ltb-pbtn">Đặt ngay</a>
+				</div>
+			</li>
+			<li>
+				<div class="ltb-puifo">
+					<p class="ltb-puimg"><img src="images/prod.png" alt=""></p>
+					<h3 class="ltb-puitit">Asus E402SA-WX043D/ Celeron N3050/RAM 2G/HDD</h3>
+					<div class="ltb-putifo mCustomScrollbar">
+						<ul class="ltb-puts">
+							<li><p>Bộ xử lý: Intel Core i5-7200U</p></li>
+							<li><p>RAM: 4 GB</p></li>
+							<li><p>HDD: 500 GB</p></li>
+						</ul>
+					</div>
+					<p class="ltb-puprime">15.990.000đ</p>
+					<div class="ltb-pukm">
+						<p>Lì xì thêm 100.000đ áp dụng từ 21/02 đến 28/02 (không áp dụng kèm trả góp 0%, F.Friends) </p>
+						<p>Cơ hội trúng vàng 9999</p>
+					</div>
+					<a href="javascript:;" class="ltb-pbtn">Đặt ngay</a>
+				</div>
+			</li>
+			<li>
+				<div class="ltb-puifo">
+					<p class="ltb-puimg"><img src="images/prod.png" alt=""></p>
+					<h3 class="ltb-puitit">Asus E402SA-WX043D/ Celeron N3050/RAM 2G/HDD</h3>
+					<div class="ltb-putifo mCustomScrollbar">
+						<ul class="ltb-puts">
+							<li><p>Bộ xử lý: Intel Core i5-7200U</p></li>
+							<li><p>RAM: 4 GB</p></li>
+							<li><p>HDD: 500 GB</p></li>
+						</ul>
+					</div>
+					<p class="ltb-puprime">15.990.000đ</p>
+					<div class="ltb-pukm mCustomScrollbar">
+						<p>Lì xì thêm 100.000đ áp dụng từ 21/02 đến 28/02 (không áp dụng kèm trả góp 0%, F.Friends) </p>
+						<p>Cơ hội trúng vàng 9999</p>
+					</div>
+					<a href="javascript:;" class="ltb-pbtn">Đặt ngay</a>
+				</div>
+			</li>
+			<li>
+				<div class="ltb-puifo">
+					<p class="ltb-puimg"><img src="images/prod.png" alt=""></p>
+					<h3 class="ltb-puitit">Asus E402SA-WX043D/ Celeron N3050/RAM 2G/HDD</h3>
+					<div class="ltb-putifo mCustomScrollbar">
+						<ul class="ltb-puts">
+							<li><p>Bộ xử lý: Intel Core i5-7200U</p></li>
+							<li><p>RAM: 4 GB</p></li>
+							<li><p>HDD: 500 GB</p></li>
+						</ul>
+					</div>
+					<p class="ltb-puprime">15.990.000đ</p>
+					<div class="ltb-pukm mCustomScrollbar">
+						<p>Lì xì thêm 100.000đ áp dụng từ 21/02 đến 28/02 (không áp dụng kèm trả góp 0%, F.Friends) </p>
+						<p>Cơ hội trúng vàng 9999</p>
+					</div>
+					<a href="javascript:;" class="ltb-pbtn">Đặt ngay</a>
+				</div>
+			</li>
+			<li>
+				<div class="ltb-puifo">
+					<p class="ltb-puimg"><img src="images/prod.png" alt=""></p>
+					<h3 class="ltb-puitit">Asus E402SA-WX043D/ Celeron N3050/RAM 2G/HDD</h3>
+					<div class="ltb-putifo mCustomScrollbar">
+						<ul class="ltb-puts">
+							<li><p>Bộ xử lý: Intel Core i5-7200U</p></li>
+							<li><p>RAM: 4 GB</p></li>
+							<li><p>HDD: 500 GB</p></li>
+						</ul>
+					</div>
+					<p class="ltb-puprime">15.990.000đ</p>
+					<div class="ltb-pukm mCustomScrollbar">
+						<p>Lì xì thêm 100.000đ áp dụng từ 21/02 đến 28/02 (không áp dụng kèm trả góp 0%, F.Friends) </p>
+						<p>Cơ hội trúng vàng 9999</p>
+					</div>
+					<a href="javascript:;" class="ltb-pbtn">Đặt ngay</a>
+				</div>
+			</li>
+			<li>
+				<div class="ltb-puifo">
+					<p class="ltb-puimg"><img src="images/prod.png" alt=""></p>
+					<h3 class="ltb-puitit">Asus E402SA-WX043D/ Celeron N3050/RAM 2G/HDD</h3>
+					<div class="ltb-putifo mCustomScrollbar">
+						<ul class="ltb-puts">
+							<li><p>Bộ xử lý: Intel Core i5-7200U</p></li>
+							<li><p>RAM: 4 GB</p></li>
+							<li><p>HDD: 500 GB</p></li>
+						</ul>
+					</div>
+					<p class="ltb-puprime">15.990.000đ</p>
+					<div class="ltb-pukm mCustomScrollbar">
+						<p>Lì xì thêm 100.000đ áp dụng từ 21/02 đến 28/02 (không áp dụng kèm trả góp 0%, F.Friends) </p>
+						<p>Cơ hội trúng vàng 9999</p>
+					</div>
+					<a href="javascript:;" class="ltb-pbtn">Đặt ngay</a>
+				</div>
+			</li>
+			<li>
+				<div class="ltb-puifo">
+					<p class="ltb-puimg"><img src="images/prod.png" alt=""></p>
+					<h3 class="ltb-puitit">Asus E402SA-WX043D/ Celeron N3050/RAM 2G/HDD</h3>
+					<div class="ltb-putifo mCustomScrollbar">
+						<ul class="ltb-puts">
+							<li><p>Bộ xử lý: Intel Core i5-7200U</p></li>
+							<li><p>RAM: 4 GB</p></li>
+							<li><p>HDD: 500 GB</p></li>
+						</ul>
+					</div>
+					<p class="ltb-puprime">15.990.000đ</p>
+					<div class="ltb-pukm mCustomScrollbar">
+						<p>Lì xì thêm 100.000đ áp dụng từ 21/02 đến 28/02 (không áp dụng kèm trả góp 0%, F.Friends) </p>
+						<p>Cơ hội trúng vàng 9999</p>
+					</div>
+					<a href="javascript:;" class="ltb-pbtn">Đặt ngay</a>
+				</div>
+			</li>
+		</ul>
+		<div class="ltb-btn">
+			<p><a href="javascript:;" class="ltb-pbtnxt">Xem thêm</a></p>
+		</div>
+	</div>
+</div>
+<!--END PRDO-->
+<div class="ltg-nt">
+	<div class="container">
+		<h2 class="ltg-ntit"><span>6 Nguyên tắc vàng khi mua Laptop Gaming</span></h2>
+		<ul class="ltg-ntul">
+			<li>
+				<div class="ltg-ntitem">
+					<h3 class="ltg-nti-number">1</h3>
+					<div class="ltg-ntifo">
+						<p class="ltg-ntiname">GPU</p>
+						<p class="ltg-ntitxt">
+							Bộ xử lý đồ họa GPU là yếu tố ảnh hưởng nhiều nhất đối với trải nghiệm chơi game. Laptop được trang bị GPU tốt nhất từ 2 hãng sản xuất GPU GeForce hay Nvidia.
+						</p>
+					</div>
+				</div>
+				<p class="ltg-ntimg"><img src="images/1505/i1.png" alt=""></p>
+			</li>
+			<li>
+				<div class="ltg-ntitem">
+					<h3 class="ltg-nti-number">2</h3>
+					<div class="ltg-ntifo">
+						<p class="ltg-ntiname">GPU</p>
+						<p class="ltg-ntitxt">
+							Thành phần quan trọng tiếp theo là CPU. CPU i5 và i7 thế hệ thứ 6 với số hiệu ở thông số là HQ (Đồ họa hiệu năng cao, lõi tứ) là sự lựa chọn hoản hảo hiện nay.
+						</p>
+					</div>
+				</div>
+				<p class="ltg-ntimg"><img src="images/1505/i2.png" alt=""></p>
+			</li>
+			<li>
+				<div class="ltg-ntitem">
+					<h3 class="ltg-nti-number">3</h3>
+					<div class="ltg-ntifo">
+						<p class="ltg-ntiname">Ổ CỨNG</p>
+						<p class="ltg-ntitxt">
+							Ổ cứng HDD dung lượng lớn là điều dĩ nhiên với 1TB và hoàn hảo hơn nếu được trang bị thêm 1 ổ SSD dung lượng thấp.
+						</p>
+					</div>
+				</div>
+				<p class="ltg-ntimg"><img src="images/1505/i3.png" alt=""></p>
+			</li>
+			<li>
+				<div class="ltg-ntitem">
+					<h3 class="ltg-nti-number">4</h3>
+					<div class="ltg-ntifo">
+						<p class="ltg-ntiname">RAM</p>
+						<p class="ltg-ntitxt">
+							RAM 8GB là đủ để chơi khá nhiều tựa game nổi bật trên thị trường nên bạn không cần quá quan tâm về RAM.
+						</p>
+					</div>
+				</div>
+				<p class="ltg-ntimg"><img src="images/1505/i4.png" alt=""></p>
+			</li>
+			<li>
+				<div class="ltg-ntitem">
+					<h3 class="ltg-nti-number">5</h3>
+					<div class="ltg-ntifo">
+						<p class="ltg-ntiname">MÀN HÌNH</p>
+						<p class="ltg-ntitxt">
+							Màn hình độ phân giải Full HD (1920 x 1080) và kích thước 15.6 inch sẽ cho trải nghiệm game với hình ảnh chân thực sắc nét nhất.
+						</p>
+					</div>
+				</div>
+				<p class="ltg-ntimg"><img src="images/1505/i5.png" alt=""></p>
+			</li>
+			<li>
+				<div class="ltg-ntitem">
+					<h3 class="ltg-nti-number">6</h3>
+					<div class="ltg-ntifo">
+						<p class="ltg-ntiname">CÁC NGUYÊN TẮC BỔ SUNG</p>
+						<p class="ltg-ntitxt">
+							Hệ thống âm thanh ấn tượng, thời lượng pin lâu, bàn phím cơ và mức giá phù hợp sẽ là những yếu tố bạn cần tham khảo khi chọn mua Laptop Gaming.
+						</p>
+					</div>
+				</div>
+				<p class="ltg-ntimg"><img src="images/1505/i6.png" alt=""></p>
+			</li>
+		</ul>
+	</div>
+</div>
+<!--END NT-->
+<div class="p1-sec4">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-sm-12">
+				<h3 class="p1-s4tit">Thể lệ chương trình</h3>
+				<div class="p1-s4ttle mCustomScrollbar">
+					<p><strong>Thời gian:</strong>Áp dụng từ 05/04/2016</p>
+					<p><strong>Ưu đãi:</strong> khách hàng mua Galaxy S7, S7 edge nhận được tới <strong>9 ưu đãi khủng</strong>:</p>
+					<ul>
+						<li><strong>1:</strong> Trả góp Home Credit 0% lãi suất, trả trước 40%, kỳ hạn 6 tháng </li>
+						<li><strong>2:</strong> Tặng Sạc dự phòng nhanh Samsung 5200mAh (không áp dụng trả góp 0%)</li>
+						<li><strong>3:</strong> Sim Đại Phát 0888xxxxx8 (không áp dụng trả góp 0%)</li>
+						<li><strong>4:</strong> 3 tháng cước 3G trị giá 210.000đ (không áp dụng trả góp 0%)</li>
+						<li><strong>5:</strong> Phiếu mua hàng 220.000đ áp dụng mua Sạc dự phòng 6000mAh hoặc 10000mAh</li>
+						<li><strong>6:</strong> Gói chăm sóc đặc quyền: 1 đổi 1, hỗ trợ kỹ thuật tận nhà, Hotline VIP <a href="http://fptshop.com.vn/samsung-galaxy-s7/dac-quyen">Xem chi tiết</a></li>
+						<li><strong>7:</strong> Gói ưu đãi đặc quyền: phòng chờ máy bay hạng thương gia, cafe/xem phim miễn phí rạp CGV, gói game-pack trị giá 200USD... <a href="http://fptshop.com.vn/samsung-galaxy-s7/dac-quyen">Xem chi tiết</a></li>
+						<li><strong>8:</strong> Cơ hội trúng thưởng 27 Galaxy S7</li>
+						<li><strong>9:</strong> Cơ hội trúng thưởng 300 Tivi Samsung 32”</li>
+					</ul>
+
+					<p><strong>Thời gian mở bán:</strong>Từ 18/03/2016</p>
+					<p><strong>Ưu đãi:</strong> khách hàng mua Galaxy S7, S7 edge chọn 1 trong 3 gói khuyến mãi sau:</p>
+					<ul>
+						<li><strong>KM1:</strong> Trả góp Home Credit 0% lãi suất, trả trước 40%, kỳ hạn 6 tháng</li>
+						<li><strong>KM2:</strong> Tặng Sạc dự phòng nhanh Samsung 5200mAh + Sim Đại Phát 088</li>
+						<li><strong>KM3:</strong> Trả góp 0% bằng thẻ tín dụng + Sạc dự phòng nhanh Samsung 5200mAh + Sim Đại Phát 088 (áp dụng từ 14h 22/03)</li>
+					</ul>
+					<p><strong>Ngoài 1 trong 3 gói khuyến mãi trên, khách hàng nhận thêm: </strong></p>
+					<ul>
+						<li><strong>Gói ưu đãi đặc quyền:</strong> phòng chờ máy bay hạng thương gia, cafe/xem phim miễn phí rạp CGV, gói game trị giá 200USD... <a style="text-decoration:underline;color:blue;" target="_blank" href="http://fptshop.com.vn/samsung-galaxy-s7/dac-quyen">Xem chi tiết</a></li>
+						<li><strong>Gói chăm sóc đặc quyền:</strong> 1 đổi 1, hỗ trợ kỹ thuật tận nhà, Hotline VIP <a style="text-decoration:underline;color:blue;" target="_blank" href="http://fptshop.com.vn/samsung-galaxy-s7/dac-quyen">Xem chi tiết</a></li>
+						<li><strong>Cơ hội trúng thưởng 27 Galaxy S7</strong> dành cho khách hàng mua hàng từ 01/03 - 30/04 (không áp dụng cho khách hàng đã trúng thưởng đợt 1).</li>
+						<li><strong>Khuyến mãi phụ kiện giảm tới 30%</strong> khi mua kèm <a style="text-decoration:underline;color:blue;" target="_blank" href="http://fptshop.com.vn/tin-tuc/Tin-khuyen-mai/giam-gia-phu-kien-theo-combo-khi-mua-galaxy-s7-s7-edge-tai-fptshop-39128">tại đây</a>.</li>
+					</ul>
+					<p><strong>Lưu ý:</strong> Không áp dụng đối với đơn hàng đặt cọc từ 01/03 đến 17/03.</p>
+					<p><strong>Thời gian đặt cọc: </strong>01/03/2016 - 22h00 17/03/2016</p>
+					<p><strong>Ưu đãi: </strong></p>
+					<p><strong>- Từ 01/03 đến 12h00 03/03:</strong> khách hàng may mắn có cơ hội nhận được</p>
+
+				</div>
+			</div>
+
+			<div class="col-md-6 col-sm-12 p1-s4dskh">
+				<h3 class="p1-s4tit">Danh sách đăng ký giải đấu</h3>
+				<div class="p1-s4ulsh clearfix">
+					<div class="p1-s4search">
+						<input type="text" class="form-control" placeholder="Nhập số điện thoại để tìm kiếm">
+					</div>
+				</div>
+				<div class="p1-s4table mCustomScrollbar">
+					<table class="table table-hover table-striped">
+						<thead>
+						<tr>
+							<td>STT</td>
+							<td>Họ tên</td>
+							<td>Điện thoại</td>
+							<td>Thời gian</td>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<td>123</td>
+							<td>Nguyễn Văn Anh</td>
+							<td>0986222xxx</td>
+							<td>20 phút trước</td>
+						</tr>
+						<tr>
+							<td>123</td>
+							<td>Nguyễn Văn Anh</td>
+							<td>0986222xxx</td>
+							<td>20 phút trước</td>
+						</tr>
+						<tr>
+							<td>123</td>
+							<td>Nguyễn Văn Anh</td>
+							<td>0986222xxx</td>
+							<td>20 phút trước</td>
+						</tr>
+						<tr>
+							<td>123</td>
+							<td>Nguyễn Văn Anh</td>
+							<td>0986222xxx</td>
+							<td>20 phút trước</td>
+						</tr>
+						<tr>
+							<td>123</td>
+							<td>Nguyễn Văn Anh</td>
+							<td>0986222xxx</td>
+							<td>20 phút trước</td>
+						</tr>
+						<tr>
+							<td>123</td>
+							<td>Nguyễn Văn Anh</td>
+							<td>0986222xxx</td>
+							<td>20 phút trước</td>
+						</tr>
+						<tr>
+							<td>123</td>
+							<td>Nguyễn Văn Anh</td>
+							<td>0986222xxx</td>
+							<td>20 phút trước</td>
+						</tr>
+						<tr>
+							<td>123</td>
+							<td>Nguyễn Văn Anh</td>
+							<td>0986222xxx</td>
+							<td>20 phút trước</td>
+						</tr>
+						<tr>
+							<td>123</td>
+							<td>Nguyễn Văn Anh</td>
+							<td>0986222xxx</td>
+							<td>20 phút trước</td>
+						</tr>
+						<tr>
+							<td>123</td>
+							<td>Nguyễn Văn Anh</td>
+							<td>0986222xxx</td>
+							<td>20 phút trước</td>
+						</tr>
+						<tr>
+							<td>123</td>
+							<td>Nguyễn Văn Anh</td>
+							<td>0986222xxx</td>
+							<td>20 phút trước</td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+				<p class="p1-s4tdmore"><a class="btn btn-default" href="javascript:;" title="">Xem thêm</a> </p>
+			</div>
+		</div>
+	</div>
+</div>
+<!--<div class="ttct-cmt">-->
+<!--<div class="container">-->
+<!--<div class="fshop-cmtbox" data-modul="3" id="wrapper-nt-comment"></div>-->
+<!--</div>-->
+<!--</div>-->
+<footer class="of-footer">
+	<div class="container">
+		<div class="of-footer-link">
+			<a target="_blank" href="http://fptshop.com.vn/huong-dan/huong-dan-mua-hang" title="Hướng dẫn mua hàng">Hướng dẫn mua hàng</a> |
+			<a target="_blank" href="http://fptshop.com.vn/ho-tro/chinh-sach-tra-gop" title="Trả góp">Trả góp</a> |
+			<a target="_blank" href="http://fptshop.com.vn/ho-tro/chinh-sach-bao-hanh" title="Chính sách bảo hành">Chính sách bảo hành</a>
+		</div>
+		<p>Công Ty Cổ Phần Bán Lẻ Kỹ Thuật Số FPT - 261,263 Khánh Hội, P5, Q4, TP. Hồ Chí Minh.</p>
+		<p>Điện thoại: 08.73023456. Fax: 08.39435773. Email: cskh@fptshop.com.vn</p>
+	</div>
+</footer>
+</body>
+</html>

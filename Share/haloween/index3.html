@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>FPTshop.com.vn</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Favicons -->
+	<link rel="icon" href="images/favicon.ico">
+	<!-- Css -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/swiper.min.css" />
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css" />
+    <link href="http://fptshop.com.vn/Content/v3/css/fpt-shop/comment-new.css?v=2708" rel="stylesheet" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/comment.css" />
+	<link rel="stylesheet" href="css/style-pro3.css" />
+	<!-- Js -->
+	<script src="js/libs/jquery-1.11.2.min.js"></script>
+	<script src="js/libs/bootstrap.min.js"></script>
+	<script src="js/swiper.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="http://fptshop.com.vn/Scripts/v3/fpt-shop/jfpts.comment/jfpts.comment.v1_S7.js?v=2708"></script>
+	<script src="js/packery.pkgd.min.js"></script>
+	<script src="js/libs/jquery.validate.min.js"></script>
+	<script src="js/functions.js"></script>
+	<script src="js/functions3.js"></script>
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<script src="js/libs/ie-emulation-modes-warning.js"></script>
+	<!--[if lt IE 9]>
+	<script src="js/libs/html5shiv.min.js"></script>
+	<script src="js/libs/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+
+<!----------------------------HEADER---------------------------------------->
+
+<div class="of-header">
+    <div class="container">
+        <a href="http://fptshop.com.vn/" title="Fptshop.com.vn"><img class="of-logo" src="images/logo.png" alt="Fptshop.com.vn"></a>
+
+        <span class="of-iconmntop"><i class="glyphicon glyphicon-menu-hamburger"></i></span>
+        <ul class="of-menutop clearfix">
+            <li><a target="_blank" href="http://fptshop.com.vn/dien-thoai" title=""> <i class="of-imobile"></i> <span>Điện thoại</span> </a></li>
+            <li><a target="_blank" href="http://fptshop.com.vn/may-tinh-bang" title=""> <i class="of-itablet"></i> <span>Tablet</span> </a></li>
+            <li><a target="_blank" href="http://fptshop.com.vn/apple" title=""> <i class="of-iapple"></i> <span>Apple</span> </a></li>
+            <li><a target="_blank" href="http://fptshop.com.vn/may-tinh-xach-tay" title=""> <i class="of-ilaptop"></i> <span>Laptop</span> </a></li>
+            <li><a target="_blank" href="http://fptshop.com.vn/smartwatch" title=""> <i class="of-iswatch"></i> <span>SmartWatch</span> </a></li>
+            <li><a target="_blank" href="http://fptshop.com.vn/phu-kien" title=""> <i class="of-ipkien"></i> <span>Phụ kiện</span> </a></li>
+            <li><a target="_blank" href="http://fptshop.com.vn/may-doi-tra" title=""> <i class="of-imdt"></i> <span>Máy đổi trả</span> </a></li>
+            <li><a target="_blank" href="http://fptshop.com.vn/xa-hang" title=""> <i class="of-ixahang"></i> <span>Xả hàng</span> </a></li>
+            <li><a target="_blank" href="http://fptshop.com.vn/khuyen-mai" title=""> <i class="of-ikmai"></i> <span>Khuyến mãi</span> </a></li>
+            <li><a target="_blank" href="http://fptshop.com.vn/tin-tuc" title=""> <i class="of-itinhay"></i> <span>Tin hay</span> </a></li>
+        </ul>
+
+        <div class="of-search">
+            <i class="of-isearch"></i> <span>Tìm kiếm</span>
+        </div>
+
+        <div class="of-call">
+            <a href="tel:18006601">
+                <span>Tư vấn miễn phí</span>
+                <p><i class="glyphicon glyphicon-earphone"></i>1800 6601</p>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="of-searchbox">
+    <div class="of-searchbar">
+        <div class="container">
+            <a href="" title=""><img class="of-slogo" src="images/logo-mb.png?v=010912" alt=""></a>
+            <form id="frmSearch">
+                <div class="of-ipsearch input-group">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="button"><i class="glyphicon glyphicon-search"></i></button>
+                        </span>
+                    <input type="text" class="form-control keyword" placeholder="Tìm kiếm Fptshop.com.vn">
+
+                    <div class="asmr">
+                        <ul class="fshop-search-cate"></ul>
+                        <ul class="fshop-search-prod"></ul>
+                    </div>
+
+                </div>
+            </form>
+            <span class="of-closesearch">✕</span>
+        </div>
+    </div>
+</div>
+<!--------------------------END HEADER-------------------------------------->
+
+<div class="p2-banner">
+    <div class="container">
+        <a href="javascript:;"><img src="images/2410/banner.jpg" alt=""></a>
+    </div>
+</div>
+<!--------------------------END BANNER-------------------------------------->
+
+<div class="p2-sphot">
+    <div class="container">
+        <div class="swiper-container p2-sphotswiper">
+            <div class="swiper-wrapper">
+                <div class="p2-sphotitem swiper-slide">
+                    <div class="clearfix">
+                        <div class="p2-sph-label">
+                            <span>GIẢM</span>
+                            <span>48%</span>
+                        </div>
+                        <div class="p2-sph-img">
+                            <img src="http://fptshop.com.vn/Uploads/Thumbs/2014/11/6/201411061131588311_iphone-5s-1-o.jpg" alt="">
+                        </div>
+                        <div class="p2-sph-info">
+                            <h3 class="p2-sp-name">iPhone 6 Plus 64GB</h3>
+                            <p class="p2-sp-price">20.000.000đ <span>18.000.000đ</span></p>
+                            <div class="p2-sp-km">
+                                <p>Tặng 50% bảo hành vàng</p>
+                                <p>Bảo hành: 12 tháng</p>
+                            </div>
+                            <ul class="p2-sp-btn">
+                                <li><a class="p2-spbtn-od" href="" title="">ĐẶT NGAY</a></li>
+                                <li><a class="p2-spbtn-ct" href="" title="">CHI TIẾT</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p2-sphotitem swiper-slide">
+                    <div class="clearfix">
+                        <div class="p2-sph-label">
+                            <span>GIẢM</span>
+                            <span>48%</span>
+                        </div>
+                        <div class="p2-sph-img">
+                            <img src="http://fptshop.com.vn/Uploads/Thumbs/2014/11/6/201411061131588311_iphone-5s-1-o.jpg" alt="">
+                        </div>
+                        <div class="p2-sph-info">
+                            <h3 class="p2-sp-name">iPhone 6 Plus 64GB 6 Plus 64GB 6 Plus 64GB</h3>
+                            <p class="p2-sp-price">20.000.000đ <span>18.000.000đ</span></p>
+                            <div class="p2-sp-km">
+                                <p>Tặng 50% bảo hành vàng</p>
+                                <p>Bảo hành: 12 tháng</p>
+                            </div>
+                            <ul class="p2-sp-btn">
+                                <li><a class="p2-spbtn-od" href="" title="">ĐẶT NGAY</a></li>
+                                <li><a class="p2-spbtn-ct" href="" title="">CHI TIẾT</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p2-sphotitem swiper-slide">
+                    <div class="clearfix">
+                        <div class="p2-sph-label">
+                            <span>GIẢM</span>
+                            <span>48%</span>
+                        </div>
+                        <div class="p2-sph-img">
+                            <img src="http://fptshop.com.vn/Uploads/Thumbs/2014/11/6/201411061131588311_iphone-5s-1-o.jpg" alt="">
+                        </div>
+                        <div class="p2-sph-info">
+                            <h3 class="p2-sp-name">iPhone 6 Plus 64GB 6 Plus 64GB 6 Plus 64GB</h3>
+                            <p class="p2-sp-price">20.000.000đ <span>18.000.000đ</span></p>
+                            <div class="p2-sp-km">
+                                <p>Tặng 50% bảo hành vàng</p>
+                                <p>Bảo hành: 12 tháng</p>
+                            </div>
+                            <ul class="p2-sp-btn">
+                                <li><a class="p2-spbtn-od" href="" title="">ĐẶT NGAY</a></li>
+                                <li><a class="p2-spbtn-ct" href="" title="">CHI TIẾT</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!--------------------------END P2-SPHOT------------------------------------>
+
+<div class="p2-mbbar">
+    <div class="p2-menu">
+        <div class="container">
+            <ul class="clearfix">
+                <li><a href="" title="">TẤT CẢ</a></li>
+                <li class="active"><a href="" title="">ĐIỆN THOẠI</a></li>
+                <li><a href="" title=""><span class="p2-mnmtb">MÁY TÍNH BẢNG</span> <span class="p2-mntlet">TABLET</span></a></li>
+                <li><a href="" title="">LAPTOP</a></li>
+                <li><a href="" title="">PHỤ KIỆN</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="p2-fillter">
+        <div class="container">
+            <div class="p2-fillbox">
+                <div class="clearfix">
+                    <div class="p2-fill-c1">
+                        <p class="p2-fil-cokm">Có <strong>680</strong> sản phẩm khuyến mãi lớn</p>
+                    </div>
+                    <div class="p2-fill-c2">
+                        <ul class="p2-fil-sx">
+                            <li>
+                                <select class="p2-fil-sehsx">
+                                    <option>Hãng sản xuất</option>
+                                    <option>Apple</option>
+                                    <option>Sony</option>
+                                    <option>Samsung</option>
+                                </select>
+                            </li>
+                            <li>
+                                <select class="p2-fil-seprice">
+                                    <option>Mức giá</option>
+                                    <option>Cao đến thâp</option>
+                                    <option>Thấp đến cao</option>
+                                </select>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="p2-fill-c3">
+                        <div class="p2-fil-likmbox">
+                            <p class="p2-fil-likmtit"><span>Lọc theo khuyến mãi</span> <i class="glyphicon glyphicon-triangle-bottom"></i></p>
+                            <ul class="p2-fil-likm">
+                                <li class="active"><a class="p2-fil-qt" href="" title="">QUÀ TẶNG</a></li>
+                                <li><a class="p2-fil-tg" href="" title="">TRẢ GÓP 0%</a></li>
+                                <li><a class="p2-fil-mt" href="" title="">MUA 1 TẶNG 1</a></li>
+                                <li><a class="p2-fil-gg" href="" title="">GIẢM GIÁ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------------------END P2-MBBAR----------------------------------->
+
+<div class="p2-listprod">
+    <div class="container">
+        <div class="p2-listprod-box">
+            <div class="p2-lprod-row clearfix">
+                <div data-id="1" class="p2item p2-lprod-ibox">
+                    <div class="p2-lprod-item">
+                        <div class="p2-lprod-label">
+                            <p class="p2-fil-qt">
+                                <span>QUÀ TẶNG</span>
+                            </p>
+                        </div>
+                        <div class="p2-lprod-img">
+                            <img src="http://fptshop.com.vn/Uploads/Thumbs/2014/11/6/201411061131588311_iphone-5s-1-o.jpg" alt="">
+                        </div>
+                        <div class="p2-sp-mid">
+                            <h3 class="p2-sp-name">iPhone 6 Plus 64GB</h3>
+                            <p class="p2-sp-price">20.000.000đ <span>18.000.000đ</span></p>
+                            <div class="p2-sp-lbkm">
+                                <span>GIẢM</span>
+                                <span>48%</span>
+                            </div>
+                        </div>
+                        <div class="p2-sp-km">
+                            <p>Tặng 50% bảo hành vàng</p>
+                            <p>Bảo hành: 12 tháng</p>
+                        </div>
+                        <ul class="p2-sp-btn">
+                            <li><a class="p2-spbtn-od" href="" title="">ĐẶT NGAY</a></li>
+                            <li><a class="p2-spbtn-ct p2-btnqview" href="javascript:;" title="">XEM NHANH</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div data-id="1" class="p2item p2-lprod-fbox">
+                    <div class="clearfix">
+                        <span class="p2-lfboxclose">✕</span>
+                        <div class="p2-lpf-img">
+                            <div class="p2-lprod-label">
+                                <p class="p2-fil-tg">
+                                    <span>TRẢ GÓP</span>
+                                    <span>0%</span>
+                                </p>
+                            </div>
+                            <img src="http://fptshop.com.vn/Uploads/Originals/2016/4/12/635960855583231750_iPad-Pro.jpg" alt="">
+                        </div>
+                        <div class="p2-lpf-info">
+                            <div class="p2-lp-fbod">
+                                <h3 class="p2-sp-name">iPhone 6 Plus 64GB 6 Plus 64GB 6 Plus 64GB</h3>
+                                <p class="p2-sp-price">20.000.000đ <span>18.000.000đ</span></p>
+                                <div class="p2-sp-lbkm">
+                                    <span>GIẢM</span>
+                                    <span>48%</span>
+                                </div>
+                                <div class="p2-sp-km">
+                                    <p>Tặng 50% bảo hành vàng</p>
+                                    <p>Bảo hành: <span class="p2-sp-kmbh">12 tháng</span></p>
+                                </div>
+                                <ul class="p2-sp-btn">
+                                    <li><a class="p2-spbtn-od" href="" title="">ĐẶT NGAY</a></li>
+                                    <li><a class="p2-spbtn-ct" href="" title="">CHI TIẾT</a></li>
+                                </ul>
+                            </div>
+                            <hr>
+
+                            <div class="p2-lp-fbkm">
+                                <h3>Khuyến mại:</h3>
+                                <ul>
+                                    <li>- Bảo hành 1 đổi 1 trong vòng 12 tháng</li>
+                                    <li>- Trả góp 0% Home Credit (PPF), trả trước 30%, kỳ hạn 6 tháng (không áp dụng đồng thời Khuyến Mãi pre-order 2 năm BH)</li>
+                                    <li>- Trả góp 0% ANZ/HSBC (không áp dụng đồng thời Khuyến Mãi pre-order 2 năm Bảo Hành)</li>
+                                    <li>- Tặng 50% gói Bảo Hành Vàng</li>
+                                </ul>
+                                <span class="p2-lp-fbkmmore">Xem thêm khuyến mãi <i class="glyphicon glyphicon-triangle-bottom"></i> </span>
+                            </div>
+
+                            <div class="p2-lp-fbts">
+                                <h3>Thông số cơ bản:</h3>
+                                <div class="clearfix p2-lp-fbtsbox">
+                                    <ul>
+                                        <li><label>Màn hình :</label> <span>4.7 inch (1334 x 750 pixels)</span></li>
+                                        <li><label>Camera :</label> <span>Chính: 12.0MP, Phụ: 5.0 MP</span></li>
+                                        <li><label>Bộ nhớ trong :</label> <span>16 GB</span></li>
+                                        <li><label>Hệ điều hành :</label> <span>iOS 9</span></li>
+                                        <li><label>Chipset :</label> <span>A9</span></li>
+                                        <li><label>Kích thước :</label> <span>138.3 x 67.1 x 7.1 mm</span></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-id="2" class="p2item p2-lprod-ibox">
+                    <div class="p2-lprod-item">
+                        <div class="p2-lprod-label">
+                            <p class="p2-fil-tg">
+                                <span>TRẢ GÓP</span>
+                                <span>0%</span>
+                            </p>
+                        </div>
+                        <div class="p2-lprod-img">
+                            <img src="http://fptshop.com.vn/Uploads/Thumbs/2014/11/6/201411061131588311_iphone-5s-1-o.jpg" alt="">
+                        </div>
+                        <div class="p2-sp-mid">
+                            <h3 class="p2-sp-name">iPhone 6 Plus 64GB 6 Plus 64GB 6 Plus 64GB</h3>
+                            <p class="p2-sp-price">20.000.000đ <span>18.000.000đ</span></p>
+                            <div class="p2-sp-lbkm">
+                                <span>GIẢM</span>
+                                <span>48%</span>
+                            </div>
+                        </div>
+                        <div class="p2-sp-km">
+                            <p>Tặng 50% bảo hành vàng</p>
+                            <p>Bảo hành: 12 tháng</p>
+                        </div>
+                        <ul class="p2-sp-btn">
+                            <li><a class="p2-spbtn-od" href="" title="">ĐẶT NGAY</a></li>
+                            <li><a class="p2-spbtn-ct p2-btnqview" href="javascript:;" title="">XEM NHANH</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div data-id="2" class="p2item p2-lprod-fbox">
+                    <div class="clearfix">
+                        <span class="p2-lfboxclose">✕</span>
+                        <div class="p2-lpf-img">
+                            <div class="p2-lprod-label">
+                                <p class="p2-fil-tg">
+                                    <span>TRẢ GÓP</span>
+                                    <span>0%</span>
+                                </p>
+                            </div>
+                            <img src="http://fptshop.com.vn/Uploads/Originals/2016/4/12/635960855583231750_iPad-Pro.jpg" alt="">
+                        </div>
+                        <div class="p2-lpf-info">
+                            <div class="p2-lp-fbod">
+                                <h3 class="p2-sp-name">iPhone 6 Plus 64GB 6 Plus 64GB 6 Plus 64GB</h3>
+                                <p class="p2-sp-price">20.000.000đ <span>18.000.000đ</span></p>
+                                <div class="p2-sp-lbkm">
+                                    <span>GIẢM</span>
+                                    <span>48%</span>
+                                </div>
+                                <div class="p2-sp-km">
+                                    <p>Tặng 50% bảo hành vàng</p>
+                                    <p>Bảo hành: <span class="p2-sp-kmbh">12 tháng</span></p>
+                                </div>
+                                <ul class="p2-sp-btn">
+                                    <li><a class="p2-spbtn-od" href="" title="">ĐẶT NGAY</a></li>
+                                    <li><a class="p2-spbtn-ct" href="" title="">CHI TIẾT</a></li>
+                                </ul>
+                            </div>
+                            <hr>
+
+                            <div class="p2-lp-fbkm">
+                                <h3>Khuyến mại:</h3>
+                                <ul>
+                                    <li>- Bảo hành 1 đổi 1 trong vòng 12 tháng</li>
+                                    <li>- Trả góp 0% Home Credit (PPF), trả trước 30%, kỳ hạn 6 tháng (không áp dụng đồng thời Khuyến Mãi pre-order 2 năm BH)</li>
+                                    <li>- Trả góp 0% ANZ/HSBC (không áp dụng đồng thời Khuyến Mãi pre-order 2 năm Bảo Hành)</li>
+                                    <li>- Tặng 50% gói Bảo Hành Vàng</li>
+                                </ul>
+                                <span class="p2-lp-fbkmmore">Xem thêm khuyến mãi <i class="glyphicon glyphicon-triangle-bottom"></i> </span>
+                            </div>
+
+                            <div class="p2-lp-fbts">
+                                <h3>Thông số cơ bản:</h3>
+                                <div class="clearfix p2-lp-fbtsbox">
+                                    <ul>
+                                        <li><label>Màn hình :</label> <span>4.7 inch (1334 x 750 pixels)</span></li>
+                                        <li><label>Camera :</label> <span>Chính: 12.0MP, Phụ: 5.0 MP</span></li>
+                                        <li><label>Bộ nhớ trong :</label> <span>16 GB</span></li>
+                                        <li><label>Hệ điều hành :</label> <span>iOS 9</span></li>
+                                        <li><label>Chipset :</label> <span>A9</span></li>
+                                        <li><label>Kích thước :</label> <span>138.3 x 67.1 x 7.1 mm</span></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-id="3" class="p2item p2-lprod-ibox">
+                    <div class="p2-lprod-item">
+                        <div class="p2-lprod-label">
+                            <p class="p2-fil-mt">
+                                <span>MUA 1</span>
+                                <span>TẶNG 1</span>
+                            </p>
+                        </div>
+                        <div class="p2-lprod-img">
+                            <img src="http://fptshop.com.vn/Uploads/Thumbs/2014/11/6/201411061131588311_iphone-5s-1-o.jpg" alt="">
+                        </div>
+                        <div class="p2-sp-mid">
+                            <h3 class="p2-sp-name">iPhone 6 Plus 64GB 6 Plus 64GB 6 Plus 64GB</h3>
+                            <p class="p2-sp-price">20.000.000đ <span>18.000.000đ</span></p>
+                            <div class="p2-sp-lbkm">
+                                <span>GIẢM</span>
+                                <span>48%</span>
+                            </div>
+                        </div>
+                        <div class="p2-sp-km">
+                            <p>Tặng 50% bảo hành vàng</p>
+                            <p>Bảo hành: 12 tháng</p>
+                        </div>
+                        <ul class="p2-sp-btn">
+                            <li><a class="p2-spbtn-od" href="" title="">ĐẶT NGAY</a></li>
+                            <li><a class="p2-spbtn-ct p2-btnqview" href="javascript:;" title="">XEM NHANH</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div data-id="3" class="p2item p2-lprod-fbox">
+                    <div class="clearfix">
+                        <span class="p2-lfboxclose">✕</span>
+                        <div class="p2-lpf-img">
+                            <div class="p2-lprod-label">
+                                <p class="p2-fil-tg">
+                                    <span>TRẢ GÓP</span>
+                                    <span>0%</span>
+                                </p>
+                            </div>
+                            <img src="http://fptshop.com.vn/Uploads/Originals/2016/4/12/635960855583231750_iPad-Pro.jpg" alt="">
+                        </div>
+                        <div class="p2-lpf-info">
+                            <div class="p2-lp-fbod">
+                                <h3 class="p2-sp-name">iPhone 6 Plus 64GB 6 Plus 64GB 6 Plus 64GB</h3>
+                                <p class="p2-sp-price">20.000.000đ <span>18.000.000đ</span></p>
+                                <div class="p2-sp-lbkm">
+                                    <span>GIẢM</span>
+                                    <span>48%</span>
+                                </div>
+                                <div class="p2-sp-km">
+                                    <p>Tặng 50% bảo hành vàng</p>
+                                    <p>Bảo hành: <span class="p2-sp-kmbh">12 tháng</span></p>
+                                </div>
+                                <ul class="p2-sp-btn">
+                                    <li><a class="p2-spbtn-od" href="" title="">ĐẶT NGAY</a></li>
+                                    <li><a class="p2-spbtn-ct" href="" title="">CHI TIẾT</a></li>
+                                </ul>
+                            </div>
+                            <hr>
+
+                            <div class="p2-lp-fbkm">
+                                <h3>Khuyến mại:</h3>
+                                <ul>
+                                    <li>- Bảo hành 1 đổi 1 trong vòng 12 tháng</li>
+                                    <li>- Trả góp 0% Home Credit (PPF), trả trước 30%, kỳ hạn 6 tháng (không áp dụng đồng thời Khuyến Mãi pre-order 2 năm BH)</li>
+                                    <li>- Trả góp 0% ANZ/HSBC (không áp dụng đồng thời Khuyến Mãi pre-order 2 năm Bảo Hành)</li>
+                                    <li>- Tặng 50% gói Bảo Hành Vàng</li>
+                                </ul>
+                                <span class="p2-lp-fbkmmore">Xem thêm khuyến mãi <i class="glyphicon glyphicon-triangle-bottom"></i> </span>
+                            </div>
+
+                            <div class="p2-lp-fbts">
+                                <h3>Thông số cơ bản:</h3>
+                                <div class="clearfix p2-lp-fbtsbox">
+                                    <ul>
+                                        <li><label>Màn hình :</label> <span>4.7 inch (1334 x 750 pixels)</span></li>
+                                        <li><label>Camera :</label> <span>Chính: 12.0MP, Phụ: 5.0 MP</span></li>
+                                        <li><label>Bộ nhớ trong :</label> <span>16 GB</span></li>
+                                        <li><label>Hệ điều hành :</label> <span>iOS 9</span></li>
+                                        <li><label>Chipset :</label> <span>A9</span></li>
+                                        <li><label>Kích thước :</label> <span>138.3 x 67.1 x 7.1 mm</span></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-id="4" class="p2item p2-lprod-ibox">
+                    <div class="p2-lprod-item">
+                        <div class="p2-lprod-label">
+                            <p class="p2-fil-gg">
+                                <span>GIẢM GIÁ</span>
+                            </p>
+                        </div>
+                        <div class="p2-lprod-img">
+                            <img src="http://fptshop.com.vn/Uploads/Thumbs/2014/11/6/201411061131588311_iphone-5s-1-o.jpg" alt="">
+                        </div>
+                        <div class="p2-sp-mid">
+                            <h3 class="p2-sp-name">iPhone 6 Plus 64GB 6 Plus 64GB 6 Plus 64GB</h3>
+                            <p class="p2-sp-price">20.000.000đ <span>18.000.000đ</span></p>
+                            <div class="p2-sp-lbkm">
+                                <span>GIẢM</span>
+                                <span>48%</span>
+                            </div>
+                        </div>
+                        <div class="p2-sp-km">
+                            <p>Tặng 50% bảo hành vàng</p>
+                            <p>Bảo hành: 12 tháng</p>
+                        </div>
+                        <ul class="p2-sp-btn">
+                            <li><a class="p2-spbtn-od" href="" title="">ĐẶT NGAY</a></li>
+                            <li><a class="p2-spbtn-ct p2-btnqview" href="javascript:;" title="">XEM NHANH</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div data-id="4" class="p2item p2-lprod-fbox">
+                    <div class="clearfix">
+                        <span class="p2-lfboxclose">✕</span>
+                        <div class="p2-lpf-img">
+                            <div class="p2-lprod-label">
+                                <p class="p2-fil-tg">
+                                    <span>TRẢ GÓP</span>
+                                    <span>0%</span>
+                                </p>
+                            </div>
+                            <img src="http://fptshop.com.vn/Uploads/Originals/2016/4/12/635960855583231750_iPad-Pro.jpg" alt="">
+                        </div>
+                        <div class="p2-lpf-info">
+                            <div class="p2-lp-fbod">
+                                <h3 class="p2-sp-name">iPhone 6 Plus 64GB 6 Plus 64GB 6 Plus 64GB</h3>
+                                <p class="p2-sp-price">20.000.000đ <span>18.000.000đ</span></p>
+                                <div class="p2-sp-lbkm">
+                                    <span>GIẢM</span>
+                                    <span>48%</span>
+                                </div>
+                                <div class="p2-sp-km">
+                                    <p>Tặng 50% bảo hành vàng</p>
+                                    <p>Bảo hành: <span class="p2-sp-kmbh">12 tháng</span></p>
+                                </div>
+                                <ul class="p2-sp-btn">
+                                    <li><a class="p2-spbtn-od" href="" title="">ĐẶT NGAY</a></li>
+                                    <li><a class="p2-spbtn-ct" href="" title="">CHI TIẾT</a></li>
+                                </ul>
+                            </div>
+                            <hr>
+
+                            <div class="p2-lp-fbkm">
+                                <h3>Khuyến mại:</h3>
+                                <ul>
+                                    <li>- Bảo hành 1 đổi 1 trong vòng 12 tháng</li>
+                                    <li>- Trả góp 0% Home Credit (PPF), trả trước 30%, kỳ hạn 6 tháng (không áp dụng đồng thời Khuyến Mãi pre-order 2 năm BH)</li>
+                                    <li>- Trả góp 0% ANZ/HSBC (không áp dụng đồng thời Khuyến Mãi pre-order 2 năm Bảo Hành)</li>
+                                    <li>- Tặng 50% gói Bảo Hành Vàng</li>
+                                </ul>
+                                <span class="p2-lp-fbkmmore">Xem thêm khuyến mãi <i class="glyphicon glyphicon-triangle-bottom"></i> </span>
+                            </div>
+
+                            <div class="p2-lp-fbts">
+                                <h3>Thông số cơ bản:</h3>
+                                <div class="clearfix p2-lp-fbtsbox">
+                                    <ul>
+                                        <li><label>Màn hình :</label> <span>4.7 inch (1334 x 750 pixels)</span></li>
+                                        <li><label>Camera :</label> <span>Chính: 12.0MP, Phụ: 5.0 MP</span></li>
+                                        <li><label>Bộ nhớ trong :</label> <span>16 GB</span></li>
+                                        <li><label>Hệ điều hành :</label> <span>iOS 9</span></li>
+                                        <li><label>Chipset :</label> <span>A9</span></li>
+                                        <li><label>Kích thước :</label> <span>138.3 x 67.1 x 7.1 mm</span></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-id="5" class="p2item p2-lprod-ibox">
+                    <div class="p2-lprod-item">
+                        <div class="p2-lprod-img">
+                            <img src="http://fptshop.com.vn/Uploads/Thumbs/2014/11/6/201411061131588311_iphone-5s-1-o.jpg" alt="">
+                        </div>
+                        <div class="p2-sp-mid">
+                            <h3 class="p2-sp-name">iPhone 6 Plus 64GB 6 Plus 64GB 6 Plus 64GB</h3>
+                            <p class="p2-sp-price">20.000.000đ <span>18.000.000đ</span></p>
+                            <div class="p2-sp-lbkm">
+                                <span>GIẢM</span>
+                                <span>48%</span>
+                            </div>
+                        </div>
+                        <div class="p2-sp-km">
+                            <p>Tặng 50% bảo hành vàng</p>
+                            <p>Bảo hành: 12 tháng</p>
+                        </div>
+                        <ul class="p2-sp-btn">
+                            <li><a class="p2-spbtn-od" href="" title="">ĐẶT NGAY</a></li>
+                            <li><a class="p2-spbtn-ct p2-btnqview" href="javascript:;" title="">XEM NHANH</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div data-id="5" class="p2item p2-lprod-fbox">
+                    <div class="clearfix">
+                        <span class="p2-lfboxclose">✕</span>
+                        <div class="p2-lpf-img">
+                            <div class="p2-lprod-label">
+                                <p class="p2-fil-tg">
+                                    <span>TRẢ GÓP</span>
+                                    <span>0%</span>
+                                </p>
+                            </div>
+                            <img src="http://fptshop.com.vn/Uploads/Originals/2016/4/12/635960855583231750_iPad-Pro.jpg" alt="">
+                        </div>
+                        <div class="p2-lpf-info">
+                            <div class="p2-lp-fbod">
+                                <h3 class="p2-sp-name">iPhone 6 Plus 64GB 6 Plus 64GB 6 Plus 64GB</h3>
+                                <p class="p2-sp-price">20.000.000đ <span>18.000.000đ</span></p>
+                                <div class="p2-sp-lbkm">
+                                    <span>GIẢM</span>
+                                    <span>48%</span>
+                                </div>
+                                <div class="p2-sp-km">
+                                    <p>Tặng 50% bảo hành vàng</p>
+                                    <p>Bảo hành: <span class="p2-sp-kmbh">12 tháng</span></p>
+                                </div>
+                                <ul class="p2-sp-btn">
+                                    <li><a class="p2-spbtn-od" href="" title="">ĐẶT NGAY</a></li>
+                                    <li><a class="p2-spbtn-ct" href="" title="">CHI TIẾT</a></li>
+                                </ul>
+                            </div>
+                            <hr>
+
+                            <div class="p2-lp-fbkm">
+                                <h3>Khuyến mại:</h3>
+                                <ul>
+                                    <li>- Bảo hành 1 đổi 1 trong vòng 12 tháng</li>
+                                    <li>- Trả góp 0% Home Credit (PPF), trả trước 30%, kỳ hạn 6 tháng (không áp dụng đồng thời Khuyến Mãi pre-order 2 năm BH)</li>
+                                    <li>- Trả góp 0% ANZ/HSBC (không áp dụng đồng thời Khuyến Mãi pre-order 2 năm Bảo Hành)</li>
+                                    <li>- Tặng 50% gói Bảo Hành Vàng</li>
+                                </ul>
+                                <span class="p2-lp-fbkmmore">Xem thêm khuyến mãi <i class="glyphicon glyphicon-triangle-bottom"></i> </span>
+                            </div>
+
+                            <div class="p2-lp-fbts">
+                                <h3>Thông số cơ bản:</h3>
+                                <div class="clearfix p2-lp-fbtsbox">
+                                    <ul>
+                                        <li><label>Màn hình :</label> <span>4.7 inch (1334 x 750 pixels)</span></li>
+                                        <li><label>Camera :</label> <span>Chính: 12.0MP, Phụ: 5.0 MP</span></li>
+                                        <li><label>Bộ nhớ trong :</label> <span>16 GB</span></li>
+                                        <li><label>Hệ điều hành :</label> <span>iOS 9</span></li>
+                                        <li><label>Chipset :</label> <span>A9</span></li>
+                                        <li><label>Kích thước :</label> <span>138.3 x 67.1 x 7.1 mm</span></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-id="6" class="p2item p2-lprod-ibox">
+                    <div class="p2-lprod-item">
+                        <div class="p2-lprod-img">
+                            <img src="http://fptshop.com.vn/Uploads/Thumbs/2014/11/6/201411061131588311_iphone-5s-1-o.jpg" alt="">
+                        </div>
+                        <div class="p2-sp-mid">
+                            <h3 class="p2-sp-name">iPhone 6 Plus 64GB 6 Plus 64GB 6 Plus 64GB</h3>
+                            <p class="p2-sp-price">20.000.000đ <span>18.000.000đ</span></p>
+                            <div class="p2-sp-lbkm">
+                                <span>GIẢM</span>
+                                <span>48%</span>
+                            </div>
+                        </div>
+                        <div class="p2-sp-km">
+                            <p>Tặng 50% bảo hành vàng</p>
+                            <p>Bảo hành: 12 tháng</p>
+                        </div>
+                        <ul class="p2-sp-btn">
+                            <li><a class="p2-spbtn-od" href="" title="">ĐẶT NGAY</a></li>
+                            <li><a class="p2-spbtn-ct p2-btnqview" href="javascript:;" title="">XEM NHANH</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div data-id="6" class="p2item p2-lprod-fbox">
+                    <div class="clearfix">
+                        <span class="p2-lfboxclose">✕</span>
+                        <div class="p2-lpf-img">
+                            <div class="p2-lprod-label">
+                                <p class="p2-fil-tg">
+                                    <span>TRẢ GÓP</span>
+                                    <span>0%</span>
+                                </p>
+                            </div>
+                            <img src="http://fptshop.com.vn/Uploads/Originals/2016/4/12/635960855583231750_iPad-Pro.jpg" alt="">
+                        </div>
+                        <div class="p2-lpf-info">
+                            <div class="p2-lp-fbod">
+                                <h3 class="p2-sp-name">iPhone 6 Plus 64GB 6 Plus 64GB 6 Plus 64GB</h3>
+                                <p class="p2-sp-price">20.000.000đ <span>18.000.000đ</span></p>
+                                <div class="p2-sp-lbkm">
+                                    <span>GIẢM</span>
+                                    <span>48%</span>
+                                </div>
+                                <div class="p2-sp-km">
+                                    <p>Tặng 50% bảo hành vàng</p>
+                                    <p>Bảo hành: <span class="p2-sp-kmbh">12 tháng</span></p>
+                                </div>
+                                <ul class="p2-sp-btn">
+                                    <li><a class="p2-spbtn-od" href="" title="">ĐẶT NGAY</a></li>
+                                    <li><a class="p2-spbtn-ct" href="" title="">CHI TIẾT</a></li>
+                                </ul>
+                            </div>
+                            <hr>
+
+                            <div class="p2-lp-fbkm">
+                                <h3>Khuyến mại:</h3>
+                                <ul>
+                                    <li>- Bảo hành 1 đổi 1 trong vòng 12 tháng</li>
+                                    <li>- Trả góp 0% Home Credit (PPF), trả trước 30%, kỳ hạn 6 tháng (không áp dụng đồng thời Khuyến Mãi pre-order 2 năm BH)</li>
+                                    <li>- Trả góp 0% ANZ/HSBC (không áp dụng đồng thời Khuyến Mãi pre-order 2 năm Bảo Hành)</li>
+                                    <li>- Tặng 50% gói Bảo Hành Vàng</li>
+                                </ul>
+                                <span class="p2-lp-fbkmmore">Xem thêm khuyến mãi <i class="glyphicon glyphicon-triangle-bottom"></i> </span>
+                            </div>
+
+                            <div class="p2-lp-fbts">
+                                <h3>Thông số cơ bản:</h3>
+                                <div class="clearfix p2-lp-fbtsbox">
+                                    <ul>
+                                        <li><label>Màn hình :</label> <span>4.7 inch (1334 x 750 pixels)</span></li>
+                                        <li><label>Camera :</label> <span>Chính: 12.0MP, Phụ: 5.0 MP</span></li>
+                                        <li><label>Bộ nhớ trong :</label> <span>16 GB</span></li>
+                                        <li><label>Hệ điều hành :</label> <span>iOS 9</span></li>
+                                        <li><label>Chipset :</label> <span>A9</span></li>
+                                        <li><label>Kích thước :</label> <span>138.3 x 67.1 x 7.1 mm</span></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-id="7" class="p2item p2-lprod-ibox">
+                    <div class="p2-lprod-item">
+                        <div class="p2-lprod-img">
+                            <img src="http://fptshop.com.vn/Uploads/Thumbs/2014/11/6/201411061131588311_iphone-5s-1-o.jpg" alt="">
+                        </div>
+                        <div class="p2-sp-mid">
+                            <h3 class="p2-sp-name">iPhone 6 Plus 64GB 6 Plus 64GB 6 Plus 64GB</h3>
+                            <p class="p2-sp-price">20.000.000đ <span>18.000.000đ</span></p>
+                            <div class="p2-sp-lbkm">
+                                <span>GIẢM</span>
+                                <span>48%</span>
+                            </div>
+                        </div>
+                        <div class="p2-sp-km">
+                            <p>Tặng 50% bảo hành vàng</p>
+                            <p>Bảo hành: 12 tháng</p>
+                        </div>
+                        <ul class="p2-sp-btn">
+                            <li><a class="p2-spbtn-od" href="" title="">ĐẶT NGAY</a></li>
+                            <li><a class="p2-spbtn-ct p2-btnqview" href="javascript:;" title="">XEM NHANH</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div data-id="7" class="p2item p2-lprod-fbox">
+                    <div class="clearfix">
+                        <span class="p2-lfboxclose">✕</span>
+                        <div class="p2-lpf-img">
+                            <div class="p2-lprod-label">
+                                <p class="p2-fil-tg">
+                                    <span>TRẢ GÓP</span>
+                                    <span>0%</span>
+                                </p>
+                            </div>
+                            <img src="http://fptshop.com.vn/Uploads/Originals/2016/4/12/635960855583231750_iPad-Pro.jpg" alt="">
+                        </div>
+                        <div class="p2-lpf-info">
+                            <div class="p2-lp-fbod">
+                                <h3 class="p2-sp-name">iPhone 6 Plus 64GB 6 Plus 64GB 6 Plus 64GB</h3>
+                                <p class="p2-sp-price">20.000.000đ <span>18.000.000đ</span></p>
+                                <div class="p2-sp-lbkm">
+                                    <span>GIẢM</span>
+                                    <span>48%</span>
+                                </div>
+                                <div class="p2-sp-km">
+                                    <p>Tặng 50% bảo hành vàng</p>
+                                    <p>Bảo hành: <span class="p2-sp-kmbh">12 tháng</span></p>
+                                </div>
+                                <ul class="p2-sp-btn">
+                                    <li><a class="p2-spbtn-od" href="" title="">ĐẶT NGAY</a></li>
+                                    <li><a class="p2-spbtn-ct" href="" title="">CHI TIẾT</a></li>
+                                </ul>
+                            </div>
+                            <hr>
+
+                            <div class="p2-lp-fbkm">
+                                <h3>Khuyến mại:</h3>
+                                <ul>
+                                    <li>- Bảo hành 1 đổi 1 trong vòng 12 tháng</li>
+                                    <li>- Trả góp 0% Home Credit (PPF), trả trước 30%, kỳ hạn 6 tháng (không áp dụng đồng thời Khuyến Mãi pre-order 2 năm BH)</li>
+                                    <li>- Trả góp 0% ANZ/HSBC (không áp dụng đồng thời Khuyến Mãi pre-order 2 năm Bảo Hành)</li>
+                                    <li>- Tặng 50% gói Bảo Hành Vàng</li>
+                                </ul>
+                                <span class="p2-lp-fbkmmore">Xem thêm khuyến mãi <i class="glyphicon glyphicon-triangle-bottom"></i> </span>
+                            </div>
+
+                            <div class="p2-lp-fbts">
+                                <h3>Thông số cơ bản:</h3>
+                                <div class="clearfix p2-lp-fbtsbox">
+                                    <ul>
+                                        <li><label>Màn hình :</label> <span>4.7 inch (1334 x 750 pixels)</span></li>
+                                        <li><label>Camera :</label> <span>Chính: 12.0MP, Phụ: 5.0 MP</span></li>
+                                        <li><label>Bộ nhớ trong :</label> <span>16 GB</span></li>
+                                        <li><label>Hệ điều hành :</label> <span>iOS 9</span></li>
+                                        <li><label>Chipset :</label> <span>A9</span></li>
+                                        <li><label>Kích thước :</label> <span>138.3 x 67.1 x 7.1 mm</span></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-id="8" class="p2item p2-lprod-ibox">
+                    <div class="p2-lprod-item">
+                        <div class="p2-lprod-img">
+                            <img src="http://fptshop.com.vn/Uploads/Thumbs/2014/11/6/201411061131588311_iphone-5s-1-o.jpg" alt="">
+                        </div>
+                        <div class="p2-sp-mid">
+                            <h3 class="p2-sp-name">iPhone 6 Plus 64GB 6 Plus 64GB 6 Plus 64GB</h3>
+                            <p class="p2-sp-price">20.000.000đ <span>18.000.000đ</span></p>
+                            <div class="p2-sp-lbkm">
+                                <span>GIẢM</span>
+                                <span>48%</span>
+                            </div>
+                        </div>
+                        <div class="p2-sp-km">
+                            <p>Tặng 50% bảo hành vàng</p>
+                            <p>Bảo hành: 12 tháng</p>
+                        </div>
+                        <ul class="p2-sp-btn">
+                            <li><a class="p2-spbtn-od" href="" title="">ĐẶT NGAY</a></li>
+                            <li><a class="p2-spbtn-ct p2-btnqview" href="javascript:;" title="">XEM NHANH</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div data-id="8" class="p2item p2-lprod-fbox">
+                    <div class="clearfix">
+                        <span class="p2-lfboxclose">✕</span>
+                        <div class="p2-lpf-img">
+                            <div class="p2-lprod-label">
+                                <p class="p2-fil-tg">
+                                    <span>TRẢ GÓP</span>
+                                    <span>0%</span>
+                                </p>
+                            </div>
+                            <img src="http://fptshop.com.vn/Uploads/Originals/2016/4/12/635960855583231750_iPad-Pro.jpg" alt="">
+                        </div>
+                        <div class="p2-lpf-info">
+                            <div class="p2-lp-fbod">
+                                <h3 class="p2-sp-name">iPhone 6 Plus 64GB 6 Plus 64GB 6 Plus 64GB</h3>
+                                <p class="p2-sp-price">20.000.000đ <span>18.000.000đ</span></p>
+                                <div class="p2-sp-lbkm">
+                                    <span>GIẢM</span>
+                                    <span>48%</span>
+                                </div>
+                                <div class="p2-sp-km">
+                                    <p>Tặng 50% bảo hành vàng</p>
+                                    <p>Bảo hành: <span class="p2-sp-kmbh">12 tháng</span></p>
+                                </div>
+                                <ul class="p2-sp-btn">
+                                    <li><a class="p2-spbtn-od" href="" title="">ĐẶT NGAY</a></li>
+                                    <li><a class="p2-spbtn-ct" href="" title="">CHI TIẾT</a></li>
+                                </ul>
+                            </div>
+                            <hr>
+
+                            <div class="p2-lp-fbkm">
+                                <h3>Khuyến mại:</h3>
+                                <ul>
+                                    <li>- Bảo hành 1 đổi 1 trong vòng 12 tháng</li>
+                                    <li>- Trả góp 0% Home Credit (PPF), trả trước 30%, kỳ hạn 6 tháng (không áp dụng đồng thời Khuyến Mãi pre-order 2 năm BH)</li>
+                                    <li>- Trả góp 0% ANZ/HSBC (không áp dụng đồng thời Khuyến Mãi pre-order 2 năm Bảo Hành)</li>
+                                    <li>- Tặng 50% gói Bảo Hành Vàng</li>
+                                </ul>
+                                <span class="p2-lp-fbkmmore">Xem thêm khuyến mãi <i class="glyphicon glyphicon-triangle-bottom"></i> </span>
+                            </div>
+
+                            <div class="p2-lp-fbts">
+                                <h3>Thông số cơ bản:</h3>
+                                <div class="clearfix p2-lp-fbtsbox">
+                                    <ul>
+                                        <li><label>Màn hình :</label> <span>4.7 inch (1334 x 750 pixels)</span></li>
+                                        <li><label>Camera :</label> <span>Chính: 12.0MP, Phụ: 5.0 MP</span></li>
+                                        <li><label>Bộ nhớ trong :</label> <span>16 GB</span></li>
+                                        <li><label>Hệ điều hành :</label> <span>iOS 9</span></li>
+                                        <li><label>Chipset :</label> <span>A9</span></li>
+                                        <li><label>Kích thước :</label> <span>138.3 x 67.1 x 7.1 mm</span></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="p2-lprod-more">
+            <a href="javascript:;" title="">Xem thêm <strong>266</strong> sản phẩm </a>
+        </div>
+    </div>
+</div>
+<!---------------------------END P2-LISTPROD-------------------------------->
+
+<!--COMMENT-->
+<!--<div class="ttct-cmt">-->
+    <!--<div class="container">-->
+        <!--<div class="fshop-cmtbox" data-modul="3" id="wrapper-nt-comment"></div>-->
+    <!--</div>-->
+<!--</div>-->
+
+<!--FOOTER-->
+<footer class="of-footer">
+    <div class="container">
+        <div class="of-footer-link">
+            <a target="_blank" href="http://fptshop.com.vn/huong-dan/huong-dan-mua-hang" title="Hướng dẫn mua hàng">Hướng
+                dẫn mua hàng</a> |
+            <a target="_blank" href="http://fptshop.com.vn/ho-tro/chinh-sach-tra-gop" title="Trả góp">Trả góp</a> |
+            <a target="_blank" href="http://fptshop.com.vn/ho-tro/chinh-sach-bao-hanh" title="Chính sách bảo hành">Chính
+                sách bảo hành</a>
+        </div>
+        <p>Công Ty Cổ Phần Bán Lẻ Kỹ Thuật Số FPT - 261-263 Khánh Hội, P5, Q4, TP. Hồ Chí Minh.</p>
+        <p>Điện thoại: 08.73023456. Fax: 08.39435773. Email: cskh@fptshop.com.vn</p>
+    </div>
+</footer>
+</body>
+</html>

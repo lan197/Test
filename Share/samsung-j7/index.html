@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Bootstrap</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Favicons -->
+	<link rel="icon" href="images/favicon.ico">
+	<!-- Css -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/font-int.css" />
+	<link rel="stylesheet" href="css/swiper.min.css" />
+	<link rel="stylesheet" href="css/owl.carousel.css" />
+	<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<!-- Js -->
+	<script src="js/libs/jquery-1.11.2.min.js"></script>
+	<script src="js/libs/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/swiper.min.js"></script>
+	<script src="js/jquery.mCustomScrollbar.concat.js"></script>
+	<script src="https://maps.google.com/maps/api/js?sensor=false&libraries=geometry&v=3.23"></script>
+	<script src="js/maplace.min.js"></script>
+	<script src="js/functions.js"></script>
+	<script src="js/functions-v2.js"></script>
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<script src="js/libs/ie-emulation-modes-warning.js"></script>
+	<!--[if lt IE 9]>
+	<script src="js/libs/html5shiv.min.js"></script>
+	<script src="js/libs/respond.min.js"></script>
+	<![endif]-->
+	
+</head>
+<body>
+<div class="of-header">
+	<div class="container">
+		<a href="http://fptshop.com.vn/" title="Fptshop.com.vn"><img class="of-logo" src="images/logo.png" alt="Fptshop.com.vn"></a>
+		<span class="of-iconmntop"><i class="glyphicon glyphicon-menu-hamburger"></i></span>
+		<ul class="of-menutop clearfix">
+			<li><a target="_blank" href="http://fptshop.com.vn/dien-thoai" title=""> <i class="of-imobile"></i> <span>Điện thoại</span> </a></li>
+			<li><a target="_blank" href="http://fptshop.com.vn/may-tinh-bang" title=""> <i class="of-itablet"></i> <span>Tablet</span> </a></li>
+			<li><a target="_blank" href="http://fptshop.com.vn/apple" title=""> <i class="of-iapple"></i> <span>Apple</span> </a></li>
+			<li><a target="_blank" href="http://fptshop.com.vn/may-tinh-xach-tay" title=""> <i class="of-ilaptop"></i> <span>Laptop</span> </a></li>
+			<li><a target="_blank" href="http://fptshop.com.vn/smartwatch/apple-watch" title=""> <i class="of-iswatch"></i> <span>SmartWatch</span> </a></li>
+			<li><a target="_blank" href="http://fptshop.com.vn/phu-kien" title=""> <i class="of-ipkien"></i> <span>Phụ kiện</span> </a></li>
+			<li><a target="_blank" href="http://fptshop.com.vn/may-doi-tra" title=""> <i class="of-imdt"></i> <span>Máy đổi trả</span> </a></li>
+			<li><a target="_blank" href="http://fptshop.com.vn/xa-hang" title=""> <i class="of-ixahang"></i> <span>Xả hàng</span> </a></li> 
+			<li><a target="_blank" href="http://fptshop.com.vn/khuyen-mai" title=""> <i class="of-ikmai"></i> <span>Khuyến mãi</span> </a></li>
+			<li><a target="_blank" href="http://fptshop.com.vn/tin-tuc" title=""> <i class="of-itinhay"></i> <span>Tin hay</span> </a></li>
+		</ul>
+		<div class="of-search">
+			<i class="of-isearch"></i> <span>Tìm kiếm</span>
+		</div>
+		<div class="of-call">
+			<a href="tel:18006601">
+				<span>Tư vấn miễn phí</span>
+				<p><i class="glyphicon glyphicon-earphone"></i>1800 6601</p>
+			</a>
+		</div>
+	</div>
+</div>
+
+<div class="of-searchbox">
+	<div class="of-searchbar">
+		<div class="container">
+			<a href="" title=""><img class="of-slogo" src="images/logo-mb.png" alt=""></a>
+			<div class="of-ipsearch input-group">
+				<span class="input-group-btn">
+					<button class="btn btn-default" type="button"><i class="glyphicon glyphicon-search"></i></button>
+				</span>
+				<input type="text" class="form-control" placeholder="Tìm kiếm Fptshop.com.vn">
+			</div>
+			<span class="of-closesearch">&#x2715;</span>
+		</div>
+	</div>
+</div>
+<!--END HEADER-->
+<style>
+	.sj7-banner{
+		padding: 55px 0 0 0;
+		background: url("images/2910/bg-bn.jpg") no-repeat left bottom;
+		background-size: cover;
+	}
+	.sj7-bimg{
+		margin: 40px 0 0 0;
+	}
+	.sj7-btndn, .sj7-btndn:hover, .sj7-btndn:active, .sj7-btndn:focus{
+		border-color: #154564;
+	}
+	.sj7-btnxtl, .sj7-btnxtl:hover, .sj7-btnxtl:active, .sj7-btnxtl:focus{
+		border-color: #154564;
+	}
+	.sj7-bul {
+		margin: 20px 0 0;
+	}
+	@media (max-width: 992px) {
+		.sj7-banner{
+			padding: 40px 0;
+		}
+	}
+</style>
+<div class="sj7-banner">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5 col-sm-12 sj7-bcol">
+				<p class="sj7-bn-ileft text-center"><img src="images/2910/bn-left.png" alt=""></p>
+			</div>
+			<div class="col-md-7 col-sm-12 sj7-brcol">
+				<div class="sj7-bimg">
+					<a href="javascript:;" class="sj7-bn-ktext"><img src="images/2910/bn-right.png" alt=""></a>
+				</div>
+				<ul class="sj7-bul">
+					<li><a href="javascript:;" class="sj7-btndn hvr-bob">đặt ngay</a></li>
+					<li><a href="javascript:;" class="sj7-btnxtl hvr-bob">xem thể lệ</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<!--END BANNER-->
+
+<div class="sj7-menu">
+	<div class="container">
+        <span class="sj7-mnlgo">
+            <img src="images/268/img-logo.png" alt="">
+        </span>
+		<ul class="sj7-mnnav">
+			<li><a class="sj7-mnddsp active" href="javascript:;" title="">Chi tiết quà tặng</a></li>
+			<li><a class="sj7-mntscb" href="javascript:;" title="">Giới thiệu sản phẩm</a></li>
+			<li><a class="sj7-mntlct" href="javascript:;" title="">Thông số kỹ thuật</a></li>
+		</ul>
+		<button class="sj7-mnbtn btn">Đặt ngay</button>
+	</div>
+</div>
+<!--END MENU-->
+
+
+<div class="sj7-s1">
+	<div class="container">
+		<div class="sj7-s1-info">
+			<div class="sj7-itit">
+				<p><img src="images/268/icon-h1-s1.png" alt=""></p>
+				<h2>thiết kế đẳng cấp</h2>
+			</div>
+			<div class="sj7-s1-itext">
+				<h3>Hoàn hảo trong từng đường nét thiết kế</h3>
+				<p>
+					Chẳng cần cầu kỳ, không cần hào nhoáng, Samsung đã mang đến cho Galaxy J7 Prime thiết kế bằng kim loại nguyên khối chắc chắn. Kết hợp với mặt kính cường lực Gorilla Glass 4 được tạo hình 2,5D mềm mại, ôm sát hoàn hảo vào thân máy, mang đến sự tinh tế và thoải mái nhất cho người dùng trong quá trình sử dụng hằng ngày.
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!--END S1-->
+
+<div class="sj7-s2">
+	<div class="container">
+		<div class="sj7-s2-info">
+			<div class="sj7-itit sj7-itit2">
+				<p><img src="images/268/icon-h1-s2.png" alt=""></p>
+				<h2>Camera tuyệt đỉnh<br>
+					bắt trọn từng khung hình</h2>
+			</div>
+			<div class="sj7-s2-icam">
+				<p><img src="images/268/img-s2-selfie.png" alt=""></p>
+				<p class="sj7-s2-itext">
+					Sở hữu bô đôi camera trước/sau có độ phân giải lần lượt 8MP/13MP với cùng khẩu độ f/1.9, kết hợp cùng với hàng loạt tính năng thú vị mà Samsung trang bị, Galaxy J7 Prime hứa hẹn sẽ mang đến cho người dùng những bức ảnh hoàn hảo, bắt trọn từng khung hình trong cuộc sống. Cho dù là ngày hay đêm, trời sáng hay đêm tối, chỉ cần là bạn muốn, Samsung Galaxy J7 Prime sẽ cho bạn thấy.
+				</p>
+				<p><img src="images/268/img-s2-ts.png" alt=""></p>
+			</div>
+		</div>
+	</div>
+</div>
+<!--END S2-->
+
+<div class="sj7-s3">
+	<div class="container">
+		<div class="sj7-s3-info">
+			<div class="sj7-itit sj7-itit3">
+				<p><img src="images/268/icon-h1-s1.png" alt=""></p>
+				<h2>Tối ưu bảo mật<br>
+					trong từng lần chạm</h2>
+			</div>
+			<div class="sj7-s3-itext">
+				<p>
+					Lần đầu tiên, cảm biến vân tay được Samsung mang đến cho một chiếc điện thoại tầm trung. Với công nghệ bảo mật vân tay được Samsung trang bị trên Galaxy J7 Prime, bạn sẽ có thể dễ dàng mở khoá chiếc điện thoại của mình trong vòng chưa đến 1 giây với toàn bộ dữ liệu luôn được bảo mật một cách hoàn hảo.
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!--END S3-->
+
+<div class="sj7-slide">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 col-xs-12">
+				<div class="sj7-sl-prod">
+                    <div id="sync1" class="owl-carousel">
+                        <div class="item"><img src="images/268/img-slide-small.jpg" /></div>
+                        <div class="item"><img src="images/268/img-slide-small.jpg" /></div>
+                        <div class="item"><img src="images/268/img-slide-small.jpg" /></div>
+                    </div>
+                    <div id="sync2" class="owl-carousel">
+                        <div class="item"><img src="images/268/img-slide-small.jpg" /></div>
+                        <div class="item"><img src="images/268/img-slide-small.jpg" /></div>
+                        <div class="item"><img src="images/268/img-slide-small.jpg" /></div>
+                    </div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-xs-12 sj7-tskt">
+				<h2 class="sj7-sltit">Cấu hình sản phẩm</h2>
+				<div class="sj7-tsinfo">
+					<ul>
+						<li>
+							<label>Màn hình:</label>
+							<span>Super AMOLED, 5.7", Quad HD</span>
+						</li>
+						<li>
+							<label>Hệ điều hành:</label>
+							<span>Android 6.0 (Marshmallow)</span>
+						</li>
+						<li>
+							<label>Camera sau:</label>
+							<span>12 MP</span>
+						</li>
+						<li>
+							<label>Camera trước:</label>
+							<span>5 MP</span>
+						</li>
+						<li>
+							<label>CPU</label>
+							<span>Exynos 8890 8 nhân 64-bit, 4 nhân 2.6 GHz </span>
+						</li>
+						<li>
+							<label>RAM:</label>
+							<span>4GB</span>
+						</li>
+						<li>
+							<label>Bộ nhớ trong:</label>
+							<span>64GB</span>
+						</li>
+						<li>
+							<label>Hỗ trợ thẻ nhớ:</label>
+							<span>MicroSD, 256 GB</span>
+						</li>
+						<li>
+							<label>Thẻ SIM:</label>
+							<span>2 SIM, SIM 2 chung khe thẻ nhớ, Nano SIM</span>
+						</li>
+						<li>
+							<label>Kết nối:</label>
+							<span>WiFi, 3G, 4G LTE Cat 9</span>
+						</li>
+						<li>
+							<label>Dung lượng pin:</label>
+							<span>3500 mAh</span>
+						</li>
+						<li>
+							<label>Thiết kế:</label>
+							<span>Nguyên khối</span>
+						</li>
+						<li>
+							<label>Chức năng khác:</label>
+							<span>Sạc pin nhanh, Sạc pin không dây, Chống nước, chống  bụi, Mở khóa bằng vân tay</span>
+						</li>
+					</ul>
+					<div class="sj7-slibtn">
+						<a href="#" class="gi-tsmore" title="" target="_blank">Xem đầy đủ thông số kỹ thuật</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--END SLIDE-->
+
+<div class="op-tleds">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-sm-12 op-thele">
+				<h2 class="op-tleds-tit">Thông tin chương trình</h2>
+				<div class="op-tlebox mCustomScrollbar">
+					<p><strong>Thời gian:</strong> Từ 13.00 ngày 12.8.2016</p>
+					<p><strong>Số tiền cọc:</strong> 500.000 VND</p>
+					<p><strong>Giá chính thức:</strong> <span>18.990.000đ</span></p>
+
+					<p><strong>Khách hàng đặt Samsung Galaxy Note 7 tại FPT Shop sẽ được nhận được ưu đãi hấp dẫn:</strong></p>
+					<p><strong>1.&nbsp;</strong> Trả góp 0% (Áp dụng với thẻ CitiBank, HSBC, Sacombank, Vietinbank, ANZ.)</p>
+					<p><strong>2.&nbsp;</strong> Voucher 700.000đ (Áp dụng mua phụ kiện, dịch vụ)</p>
+					<p>
+						<strong>3. </strong>
+						Sim “FPT Play” 3G Vina: “Cày phim cháy máy – 3G cháy sim”
+						<br>
+						- Tặng đến 5GB/tháng dung lượng 3G tốc độ cao
+						<br>
+						- Miễn phí 100% 3G tốc độ cao khi xem truyền hình, phim truyện, Ngoại hạng Anh... bằng ứng dụng FPT Play
+						<br>
+						- Tặng 40.000đ gọi và SMS nội mạng
+						<br>
+						- Tặng 100% giá trị thẻ nạp cho 5 lần thẻ nạp đầu tiên nạp trước 1/4/2017
+						<br>
+						- Chi phí chỉ từ 60.000đ đến 80.000đ mỗi tháng, tháng đầu tiên miễn phí
+					</p>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12 op-dsach">
+				<ul class="op-dsach-ul clearfix">
+					<li class="op-dsach-col1">
+						<p class="op-tleds-tit">Có <strong>XXXX</strong> Khách đặt hàng</p>
+					</li>
+					<li class="op-dsach-col2">
+						<div class="op-dsach-form">
+							<input type="search" class="form-control" placeholder="Tìm số điện thoại">
+							<button type="button" class="btn btn-success"><span class="glyphicon glyphicon-search"></span></button>
+						</div>
+					</li>
+				</ul>
+				<div class="sj7-dsdc">
+					<label>
+						<input class="ck-s1-input" type="radio" name="c1" value="">
+						<p>Chỉ hiện XXX khách đặt cọc</p>
+					</label>
+					<!--edit 0609-->
+					<style>
+						.sj7-dsdhul{
+							margin-top: 5px;
+						}
+						.sj7-dsdhul li{
+							display: inline-block;
+						}
+						.sj7-dsdhul li:last-child{
+							float: right;
+							margin-right: 20px;
+						}
+					</style>
+					<ul class="sj7-dsdhul">
+						<li class="sj7-dsdc">
+							<label>
+								<input class="ck-s1-input" type="radio" name="c1" value="">
+								<p>Danh sách đặt hàng từ 01 /09 - hết 06/09</p>
+							</label>
+						</li>
+						<li class="sj7-dsdc">
+							<label>
+								<input class="ck-s1-input" type="radio" name="c1" value="">
+								<p>Danh sách KH may mắn</p>
+							</label>
+						</li>
+					</ul>
+				</div>
+				<div class="op-dsach-table mCustomScrollbar">
+					<table class="table">
+						<thead>
+						<tr>
+							<td>Stt</td>
+							<td>Họ tên</td>
+							<td>SĐT</td>
+							<td>Thời gian</td>
+							<td>Đặt cọc</td>
+						</tr>
+						</thead>
+						<tbody>
+						<tr class="active">
+							<td>1</td>
+							<td>Nguyễn Văn Abc</td>
+							<td>0988222xxx</td>
+							<td>15 phút trước</td>
+							<td>đã cọc</td>
+						</tr>
+						<tr class="active">
+							<td>1</td>
+							<td>Nguyễn Văn Abc</td>
+							<td>0988222xxx</td>
+							<td>15 phút trước</td>
+							<td>đã cọc</td>
+						</tr>
+						<tr class="active">
+							<td>1</td>
+							<td>Nguyễn Văn Abc</td>
+							<td>0988222xxx</td>
+							<td>15 phút trước</td>
+							<td>đã cọc</td>
+						</tr>
+						<tr class="active">
+							<td>1</td>
+							<td>Nguyễn Văn Abc</td>
+							<td>0988222xxx</td>
+							<td>15 phút trước</td>
+							<td>đã cọc</td>
+						</tr>
+						<tr class="active">
+							<td>1</td>
+							<td>Nguyễn Văn Abc</td>
+							<td>0988222xxx</td>
+							<td>15 phút trước</td>
+							<td>đã cọc</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>Nguyễn Văn Abc</td>
+							<td>0988222xxx</td>
+							<td>15 phút trước</td>
+							<td></td>
+						</tr>
+						<tr class="active">
+							<td>1</td>
+							<td>Nguyễn Văn Abc</td>
+							<td>0988222xxx</td>
+							<td>15 phút trước</td>
+							<td>đã cọc</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>Nguyễn Văn Abc</td>
+							<td>0988222xxx</td>
+							<td>15 phút trước</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>Nguyễn Văn Abc</td>
+							<td>0988222xxx</td>
+							<td>15 phút trước</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>Nguyễn Văn Abc</td>
+							<td>0988222xxx</td>
+							<td>15 phút trước</td>
+							<td></td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--END THELE-->
+<div class="sj7-traogiai">
+	<div class="container">
+		<h2 class="sj7-tgtit">lịch trao thưởng laptop</h2>
+		<div class="f1-timeline">
+			<div class="hư-tmboxs">
+				<ul class="f1-tmlul clearfix">
+					<li class="f1-li1 current active">
+						<a href="#f1li1" title="">
+							<span></span>
+							<p>10/09<i> Xem danh sách trúng thưởng</i></p>
+						</a>
+					</li>
+					<li class="f1-li2">
+						<a href="#f1li2" title="">
+							<span></span>
+							<p class="sj7-tg-text">20/09<i>Đang cập nhật danh sách...</i></p>
+						</a>
+					</li>
+					<li class="f1-li3">
+						<a href="#f1li3" title="">
+							<span></span>
+							<p class="sj7-tg-text">30/09<i>Đang cập nhật danh sách...</i></p>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+	</div>
+</div>
+<!--END TRAOGIAI-->
+
+<div class="sj7-dathang">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-7 col-sm-6 col-xs-12">
+				<p class="sj7-dh-img"><img src="images/298/gold.png" alt=""></p>
+			</div>
+			<div class="col-md-5 col-sm-6 col-xs-12">
+				<div class="sj7-dh-rmain">
+					<div class="sj7-dh-info">
+						<h2 class="sj7-dh-itit">Thông tin đặt hàng</h2>
+						<h3>Samsung Galaxy J7 Prime</h3>
+						<p class="sj7-dh-iprice">Giá bán: <span>7.990.000đ</span></p>
+					</div>
+					<p class="sj7-dh-ortit">Chọn màu sản phẩm</p>
+					<ul class="mz-odcolor">
+						<li class="mz-odc-vang">
+							<label>
+								<input class="mz-ipcolor mz-ipc1" type="radio" name="ChoiColor" value="mz31" checked>
+								<span></span>
+								<strong>Màu vàng</strong>
+							</label>
+						</li>
+						<li class="mz-odc-bac">
+							<label>
+								<input class="mz-ipcolor mz-ipc1" type="radio" name="ChoiColor" value="mz32">
+								<span></span>
+								<strong>Màu bạc</strong>
+							</label>
+						</li>
+						<li class="mz-odc-den">
+							<label>
+								<input class="mz-ipcolor mz-ipc1" type="radio" name="ChoiColor" value="mz33">
+								<span></span>
+								<strong>Màu đen</strong>
+							</label>
+						</li>
+					</ul>
+					<p class="sj7-dh-ortit">Thông tin của bạn</p>
+					<ul class="sj7-orform">
+						<li>
+							<input type="text" class="form-control" placeholder="Họ tên (bắt buộc)">
+						</li>
+						<li>
+							<input type="text" class="form-control" placeholder="Điện thoại (bắt buộc)">
+						</li>
+						<li>
+							<input type="email" class="form-control" placeholder="Email của bạn">
+						</li>
+					</ul>
+					<style>
+						.sj7-dsdc2{
+							position: relative;
+						}
+						.sj7-dsdc2 p {
+							padding-left: 22px;
+							color: #000000;
+							font-size: 12px;
+						}
+						.sj7-dsdc2 p:before {
+							content: '';
+							display: inline-block;
+							position: absolute;
+							left: 0;
+							top: 3px;
+							width: 15px;
+							height: 16px;
+							background: url('images/0609/icon-input.png') no-repeat 0 -16px;
+						}
+						.sj7-dsdc2 input:checked ~ p:before {
+							background: url('images/0609/icon-input.png') no-repeat 0 0;
+						}
+						.sj7-dsdhul2{
+							margin-bottom: 30px;
+						}
+						.sj7-dsdhul2 li{
+							display: inline-block;
+						}
+						.sj7-dsdhul2 li:first-child{
+							margin-right: 25px;
+						}
+						.sj7-ttonlul{
+							display: block;
+							width: 100%;
+							overflow: hidden;
+						}
+						.sj7-ttonlul li{
+							width: 49%;
+							float: left;
+							background: #0e2c9e;
+							-webkit-border-radius:3px;
+							-moz-border-radius:3px;
+							border-radius:3px;
+							text-align: center;
+						}
+						.sj7-ttonlul li:first-child{
+							margin-right: 5px;
+						}
+						.sj7-ttonlul li a{
+							padding: 6px 0;
+							color: #ffffff;
+							text-align: center;
+							font-size: 13px;
+							font-family: 's-r';
+							display: inline-block;
+						}
+						.sj7-ttonlul li a span{
+							font-size: 11px;
+						}
+						.sj7-ttonline{
+							display: none;
+						}
+						.sj7-ttonlul li a i{
+							font-style: inherit;
+							display: block;
+							width: 100%;
+						}
+						@media (max-width: 640px) {
+							.sj7-dsdhul li {
+								display: block;
+							}
+							.sj7-dsdhul li:last-child{
+								float: none;
+								margin: 5px 0 0 0;
+							}
+						}
+						@media (max-width: 410px) {
+							.sj7-ttonlul li a{
+								font-size: 11px;
+							}
+						}
+						@media (max-width: 380px) {
+							.sj7-ttonlul li a{
+								font-size: 13px;
+							}
+							.sj7-ttonlul li{
+								display: block;
+								width: 100%;
+								margin-bottom: 5px;
+							}
+							.sj7-ttonlul li a span{
+								display: block;
+								width: 100%;
+							}
+						}
+
+					</style>
+					<ul class="sj7-dsdhul2">
+						<li class="sj7-dsdc2">
+							<label>
+								<input class="ck-s1-input sj7-btn-dc" type="radio" name="c2" value="" checked="checked">
+								<p>Đặt cọc tại shop</p>
+							</label>
+						</li>
+						<li class="sj7-dsdc2">
+							<label>
+								<input class="ck-s1-input sj7-btn-tt" type="radio" name="c2" value="">
+								<p>Thanh toán trực tuyến</p>
+							</label>
+						</li>
+					</ul>
+					<div class="sj7-dh-btn">
+						<a href="#" class="sj7-dhndn">Đặt ngay</a>
+					</div>
+					<div class="sj7-ttonline">
+						<ul class="sj7-ttonlul">
+							<li><a href="#">Thanh toán qua ATM <span>(Internet banking)</span></a></li>
+							<li><a href="#">Thanh toán qua <i>thẻ visa, master</i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="no7-s5">
+	<div class="container">
+		<h2 class="no7-s5-tit">Bài viết mới nhất về Samsung Galaxy Note 7</h2>
+		<div class="swiper-container o7-s5slide">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="hm-s5-sp">
+						<a href="" title="">
+							<p class="hm-s5-img"><img src="images/268/img-s4-slide1.jpg" alt=""></p>
+							<div class="hm-s5-spt">
+								<p>Wing VN50 smartphone giá rẻ mang phong cách lịch lãm, vươn tới tầm cao mới</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="hm-s5-sp">
+						<a href="" title="">
+							<p class="hm-s5-img"><img src="images/268/img-s4-slide-2.jpg" alt=""></p>
+							<div class="hm-s5-spt">
+								<p>Mua điện thoại Wing Vn50 ở đâu có nhiều ưu đãi??</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="hm-s5-sp">
+						<a href="" title="">
+							<p class="hm-s5-img"><img src="images/268/img-s4-slide-3.jpg" alt=""></p>
+							<div class="hm-s5-spt">
+								<p>Mua điện thoại Wing Vn50 ở đâu có nhiều ưu đãi??</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="hm-s5-sp">
+						<a href="" title="">
+							<p class="hm-s5-img"><img src="images/268/img-s4-slide-4.jpg" alt=""></p>
+							<div class="hm-s5-spt">
+								<p>Mua điện thoại Wing Vn50 ở đâu có nhiều ưu đãi??</p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+<!--END S5-->
+
+<div class="sn7-tnghiem">
+	<div class="container">
+		<div class="sn7-tninfo">
+			<h2 class="sn7-tn-itit">Trải nghiệm Samsung Galaxy Note7</h2>
+			<p>Tại các cửa hàng của FPTShop</p>
+		</div>
+		<div class="sn7-tn-swip">
+			<div class="swiper-container sn7-swip-contai">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="sn7-swip-prod">
+							<p><img src="images/1409/img-slide-1.jpg" alt=""></p>
+							<p class="sn7-swip-text">
+								Khu trải nghiệm sản phẩm Galaxy tại FPT Shop 216 Thái Hà, Đống Đa, Hà Nội
+							</p>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="sn7-swip-prod">
+							<p><img src="images/1409/img-slide-1.jpg" alt=""></p>
+							<p class="sn7-swip-text">
+								Khu trải nghiệm sản phẩm Galaxy tại FPT Shop 216 Thái Hà, Đống Đa, Hà Nội
+							</p>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="sn7-swip-prod">
+							<p><img src="images/1409/img-slide-1.jpg" alt=""></p>
+							<p class="sn7-swip-text">
+								Khu trải nghiệm sản phẩm Galaxy tại FPT Shop 216 Thái Hà, Đống Đa, Hà Nội
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-button-next swiper-button-white"></div>
+			<div class="swiper-button-prev swiper-button-white"></div>
+		</div>
+		<a class="n7-s1-link" href="#CuaHang" title="" data-toggle="modal">
+			<p class="n7-s1-ln2">Xem địa chỉ</p>
+		</a>
+	</div>
+</div>
+
+<div class="no7-cmt">
+    <div class="container">
+        <!--CMT-->
+    </div>
+</div>
+
+<footer class="of-footer">
+	<div class="container">
+		<div class="of-footer-link">
+			<a target="_blank" href="http://fptshop.com.vn/huong-dan/huong-dan-mua-hang" title="Hướng dẫn mua hàng">Hướng dẫn mua hàng</a> |
+			<a target="_blank" href="http://fptshop.com.vn/ho-tro/chinh-sach-tra-gop" title="Trả góp">Trả góp</a> |
+			<a target="_blank" href="http://fptshop.com.vn/ho-tro/chinh-sach-bao-hanh" title="Chính sách bảo hành">Chính sách bảo hành</a>
+		</div>
+		<p>Công Ty Cổ Phần Bán Lẻ Kỹ Thuật Số FPT - 261,263 Khánh Hội, P5, Q4, TP. Hồ Chí Minh.</p>
+		<p>Điện thoại: 08.73023456. Fax: 08.39435773. Email: cskh@fptshop.com.vn</p>
+	</div>
+</footer>
+<div class="modal fade" id="CuaHang" tabindex="-1" role="dialog">
+	<div class="modal-dialog modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-body">
+				<!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> -->
+				<div class="row">
+					<p class="ip-pop-chtitle">Tìm địa chỉ Shop trải nghiệm Samsung Galaxy On7</p></div>
+				<div class="ip-pop-chmain">
+					<div class="row">
+						<div class="col-md-4 col-sm-12 col-md-push-8">
+							<div class="shopv2-filter">
+								<div class="shopv2-filter-box">
+									<div class="shopv2-list-shop">
+										<ul></ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-8 col-sm-12 col-md-pull-4">
+							<div id="googleMap" class="google-map">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

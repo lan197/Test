@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Bootstrap</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Favicons -->
+	<link rel="icon" href="favicon.ico">
+	<!-- Css -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/reset.css" />
+	<link href="http://fptshop.com.vn/Content/v3/css/fpt-shop/comment-new.css?v=2708" rel="stylesheet" />
+	<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css" />
+	<link rel="stylesheet" href="css/swiper.min.css" />
+	<link rel="stylesheet" href="css/style.css" />
+
+	<!-- Js -->
+	<script src="js/libs/jquery-1.11.2.min.js"></script>
+	<script src="js/libs/bootstrap.min.js"></script>
+	<script src="js/libs/jquery.validate.min.js"></script>
+	<script src="js/swiper.min.js"></script>
+	<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="js/fix.js"></script>
+	<script src="js/functions.js"></script>
+	<script src="http://fptshop.com.vn/Scripts/v3/fpt-shop/jfpts.comment/jfpts.comment.v1_S7.js?v=2708"></script>
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<script src="js/libs/ie-emulation-modes-warning.js"></script>
+	<!--[if lt IE 9]>
+	<script src="js/libs/html5shiv.min.js"></script>
+	<script src="js/libs/respond.min.js"></script>
+	<![endif]-->
+
+
+
+	<!--<script type="text/javascript">-->
+	<!--(function () {-->
+	<!--window._klDmp = window._klDmp || [];-->
+	<!--window._klDmp.push(["_siteId:FRT1282"]);-->
+	<!--var el = document.createElement('script');-->
+	<!--el.type = 'text/javascript'; el.async = true;-->
+	<!--el.src = 'http://js.knowlead.io/dmpcollector.js';-->
+	<!--var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(el, s);-->
+	<!--})();-->
+	<!--</script>-->
+
+	<!--<script>-->
+	<!--(function (i, s, o, g, r, a, m) {-->
+	<!--i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {-->
+	<!--(i[r].q = i[r].q || []).push(arguments)-->
+	<!--}, i[r].l = 1 * new Date(); a = s.createElement(o),-->
+	<!--m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)-->
+	<!--})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');-->
+
+	<!--ga('create', 'UA-36867340-1', 'auto');-->
+	<!--ga('send', 'pageview');-->
+	<!--ga('require', 'ecommerce', 'ecommerce.js');-->
+	<!--</script>-->
+
+	<!--<script type="text/javascript">-->
+	<!--var _siteId = "512046464";-->
+	<!--(function () {-->
+	<!--var e = document.createElement("script"); e.type = "text/javascript", e.async = !0, e.src = "//st-a.anthill.vn/adx.js";-->
+	<!--var t = document.getElementsByTagName("script")[0]; t.parentNode.insertBefore(e, t)-->
+	<!--})();-->
+	<!--</script>-->
+
+</head>
+<body>
+<div class="of-header">
+	<div class="container">
+		<a href="http://fptshop.com.vn/" title="Fptshop.com.vn"><img class="of-logo" src="images/logo.png" alt="Fptshop.com.vn"></a>
+
+		<span class="of-iconmntop"><i class="glyphicon glyphicon-menu-hamburger"></i></span>
+		<ul class="of-menutop clearfix">
+			<li><a target="_blank" href="http://fptshop.com.vn/dien-thoai" title=""> <i class="of-imobile"></i> <span>Điện thoại</span> </a></li>
+			<li><a target="_blank" href="http://fptshop.com.vn/may-tinh-xach-tay" title=""> <i class="of-ilaptop"></i> <span>Laptop</span> </a></li>
+			<li><a target="_blank" href="http://fptshop.com.vn/apple" title=""> <i class="of-iapple"></i> <span>Apple</span> </a></li>
+			<li><a target="_blank" href="http://fptshop.com.vn/may-tinh-bang" title=""> <i class="of-itablet"></i> <span>Tablet</span> </a></li>
+			<li><a target="_blank" href="http://fptshop.com.vn/phu-kien" title=""> <i class="of-ipkien"></i> <span>Phụ kiện</span> </a></li>
+			<li><a target="_blank" href="http://fptshop.com.vn/may-doi-tra" title=""> <i class="of-imdt"></i> <span>Máy đổi trả</span> </a></li>
+			<li><a target="_blank" href="http://fptshop.com.vn/sim-the" title=""> <i class="of-isimthe"></i> <span>Sim thẻ</span> </a></li>
+			<li><a target="_blank" href="http://fptshop.com.vn/xa-hang" title=""> <i class="of-ixahang"></i> <span>Xả hàng</span> </a></li>
+			<li><a target="_blank" href="http://fptshop.com.vn/khuyen-mai" title=""> <i class="of-ikmai"></i> <span>Khuyến mãi</span> </a></li>
+			<li><a target="_blank" href="http://fptshop.com.vn/tin-tuc" title=""> <i class="of-itinhay"></i> <span>Tin hay</span> </a></li>
+			<li><a target="_blank" href="http://fptshop.com.vn/dien-dan" title=""> <i class="of-ihoidap"></i> <span>Hỏi đáp</span> </a></li>
+		</ul>
+
+		<div class="of-search">
+			<i class="of-isearch"></i> <span>Tìm kiếm</span>
+		</div>
+
+		<div class="of-call">
+			<a href="tel:18006601">
+				<span>Tư vấn miễn phí</span>
+				<p><i class="glyphicon glyphicon-earphone"></i>1800 6601</p>
+			</a>
+		</div>
+	</div>
+</div>
+
+<div class="of-searchbox">
+	<div class="of-searchbar">
+		<div class="container">
+			<a href="" title=""><img class="of-slogo" src="images/logo-mb.png?v=010912" alt=""></a>
+			<form id="frmSearch">
+				<div class="of-ipsearch input-group">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="button"><i class="glyphicon glyphicon-search"></i></button>
+                        </span>
+					<input type="text" class="form-control keyword" placeholder="Tìm kiếm Fptshop.com.vn">
+
+					<div class="asmr">
+						<ul class="fshop-search-cate"></ul>
+						<ul class="fshop-search-prod"></ul>
+					</div>
+
+				</div>
+			</form>
+			<span class="of-closesearch">✕</span>
+		</div>
+	</div>
+</div>
+<!--END HEADER-->
+
+<div class="j5-banner">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4 col-xs-12">
+				<p class="j5-bnleft"><img src="images/bn-left.png" alt=""></p>
+			</div>
+			<div class="col-sm-8 col-xs-12">
+				<div class="j7-bnright">
+					<p class="j7-bnr-img"><img src="images/bn-right.png" alt=""></p>
+					<ul class="j7-bnrul">
+						<li><a href="javascript:;" class="j7-bnrul-ch hvr-bob">Nắm lấy cơ hội</a></li>
+						<li><a href="javascript:;" class="j7-bnrul-xtl hvr-bob">Xem thể lệ</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--END BANNER-->
+
+<div class="p1-sec1">
+	<div class="container">
+		<a href="/" title="" class="p1-selogo"><img src="images/logo-mn.png" alt=""></a>
+		<ul class="p1-secmn clearfix">
+			<li><a class="p1-s1game" href="javascript:;" title="">MINI GAME</a></li>
+			<li><a class="p1-s1ddsp" href="javascript:;" title="">GIỚI THIỆU SẢN PHẨM</a></li>
+			<li><a class="p1-s1ds" href="javascript:;" title="">DANH SÁCH NGƯỜI CHƠI</a></li>
+			<li><a class="p1-s1tt" href="javascript:;" title="">TIN TỨC</a></li>
+			<li><a class="p1-s1bl" href="javascript:;" title="">BÌNH LUẬN <sup class="p1-sesub">22</sup></a></li>
+		</ul>
+		<divl class="p1-secbtn">
+			<p class="p1-se-order"><a href="" title="" class="btn p1-sec1-btncn">CHƠI NGAY</a> </p>
+		</divl>
+	</div>
+</div>
+<!--END MENU-->
+
+<div class="j5-game">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 col-xs-12">
+				<h2 class="j5-game-tit"><img src="images/h1-g1.png" alt=""><span><img src="images/h1-icong.png" alt=""></span></h2>
+				<div class="j5-gamett">
+					<div class="j5-game-tinfo">
+						<h3 class="j5-game-ques">Truyền thuyết</h3>
+						<p>Tương truyền rằng, Trước ngày thái tử của xứ sở Sasu lên ngôi vua, kẻ thù đã đánh cắp kho báu quý giá của ngài nhằm ngăn cản và mưu đồ luật đổ. Trong đó có viên ngọc quyền năng Galaxy J5 Prime được cho là chế tạo từ thiên thạch ngoài trái đất, kẻ nào nắm trong tay viên ngọc quý sẽ là nắm trong tay vận mệnh cả thiên hạ.</p>
+						<p>Nhiệm vụ của các Anh hùng là vượt qua vô vàn cửa ải khó khăn để tìm thấy chiếc chìa khóa vàng mở ra kho báu.</p>
+						<p>“Kho báu của ta sẽ mãi thuộc về người. Nếu người tìm ra chúng”</p>
+						<p><span>Thái tử Sasu.</span></p>
+					</div>
+					<ul class="j5-game-tul">
+						<li>
+							<input type="text" class="form-control" placeholder="Tên anh hùng">
+						</li>
+						<li>
+							<input type="text" class="form-control" placeholder="Số điện thoại anh hùng">
+						</li>
+					</ul>
+					<div class="j5-game-tbtn">
+						<a href="javascript:;" class="j7-game-btncn">Khởi hành</a>
+					</div>
+				</div>
+				<div class="j5-game-c1 j5-game-ques1" style="display: none;">
+					<div class="j5-game-c1main">
+						<ul class="j5-game-cul">
+							<li>
+								<h3 class="j5-game-ques">Cửa ải số 1</h3>
+							</li>
+							<li>
+								<p class="j5-game-ctime"><span>20</span> : <span>00</span></p>
+							</li>
+						</ul>
+						<p class="j5-game-cques"><span>Samsung Galaxy J5 Prime</span> sử dụng màn hình bao inch?</p>
+						<ul class="j5-game-cques-ul">
+							<li>
+								<label>
+									<input type="radio" name="j5C1" value="c1-a" checked="checked">
+									<p>A. <span>4.7 inch</span></p>
+								</label>
+							</li>
+							<li>
+								<label>
+									<input type="radio" name="j5C1" value="c1-b">
+									<p>B. <span>5.0 inch</span></p>
+								</label>
+							</li>
+							<li>
+								<label>
+									<input type="radio" name="j5C1" value="c1-c">
+									<p>C. <span>5.2 inch</span></p>
+								</label>
+							</li>
+							<li>
+								<label>
+									<input type="radio" name="j5C1" value="c1-d">
+									<p>D. <span>5.5 inch</span></p>
+								</label>
+							</li>
+						</ul>
+						<div class="j5-game-cbtn">
+							<a href="javascript:;" class="j5-game-cbtndt j5-game-cbtn1">Đi tiếp <span class="glyphicon glyphicon-play"></span></a>
+						</div>
+					</div>
+				</div>
+				<div class="j5-game-c1 j5-game-ques2" style="display: none;">
+					<div class="j5-game-c1main">
+						<ul class="j5-game-cul">
+							<li>
+								<h3 class="j5-game-ques">Cửa ải số 2</h3>
+							</li>
+							<li>
+								<p class="j5-game-ctime"><span>20</span> : <span>00</span></p>
+							</li>
+						</ul>
+						<p class="j5-game-cques">Sản phẩm Samsung Galaxy J5 Prime sử dụng chất liệu gì?</p>
+						<ul class="j5-game-cques-ul">
+							<li>
+								<label>
+									<input type="radio" name="j5C2" value="c2-a" checked="checked">
+									<p>A. <span>Nhôm nguyên khối</span></p>
+								</label>
+							</li>
+							<li>
+								<label>
+									<input type="radio" name="j5C2" value="c2-b">
+									<p>B. <span>Nhựa cao cấp</span></p>
+								</label>
+							</li>
+							<li>
+								<label>
+									<input type="radio" name="j5C2" value="c2-c">
+									<p>C. <span>Khung nhôm kính</span></p>
+								</label>
+							</li>
+							<li>
+								<label>
+									<input type="radio" name="j5C2" value="c2-d">
+									<p>D. <span>Khung nhôm bọc da</span></p>
+								</label>
+							</li>
+						</ul>
+						<div class="j5-game-cbtn">
+							<a href="javascript:;" class="j5-game-cbtndt j5-game-cbtn2">Đi tiếp <span class="glyphicon glyphicon-play"></span></a>
+						</div>
+					</div>
+				</div>
+				<div class="j5-game-c1 j5-game-ques3" style="display: none;">
+					<div class="j5-game-c1main">
+						<ul class="j5-game-cul">
+							<li>
+								<h3 class="j5-game-ques">Cửa ải số 3</h3>
+							</li>
+							<li>
+								<p class="j5-game-ctime"><span>20</span> : <span>00</span></p>
+							</li>
+						</ul>
+						<p class="j5-game-cques">Sản phẩm <span>Samsung Galaxy J5 Prime</span> có mức giá là bao nhiêu?</p>
+						<ul class="j5-game-cques-ul">
+							<li>
+								<label>
+									<input type="radio" name="j5C3" value="c3-a" checked="checked">
+									<p>A. <span>3.999.000đ</span></p>
+								</label>
+							</li>
+							<li>
+								<label>
+									<input type="radio" name="j5C3" value="c3-b">
+									<p>B. <span>4.999.000đ</span></p>
+								</label>
+							</li>
+							<li>
+								<label>
+									<input type="radio" name="j5C3" value="c3-c">
+									<p>C. <span>5.999.000đ</span></p>
+								</label>
+							</li>
+							<li>
+								<label>
+									<input type="radio" name="j5C3" value="c3-d">
+									<p>D. <span>6.999.000đ</span></p>
+								</label>
+							</li>
+						</ul>
+						<div class="j5-game-cbtn">
+							<a href="javascript:;" class="j5-game-cbtndt j5-game-cbtn3">Đi tiếp <span class="glyphicon glyphicon-play"></span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-xs-12">
+				<p class="j5-game-tmap text-center"><img src="images/map-j5.png" alt=""></p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="j5-s1">
+	<div class="j5-s1-main">
+		<div class="j5-s1-left">
+			<div class="j5-s1-linfo">
+				<p><img src="images/lg-s1.png" alt=""></p>
+				<h2 class="j5-s1-tit">Sang trọng và tinh tế</h2>
+				<p class="j5-s1-txt">
+					<strong>Galaxy J5 Prime</strong> có vỏ ngoài kim loại nguyên khối bóng bẩy với thiết kế camera sau phẳng mang đến dáng vẻ siêu mỏng tinh tế. với màn hình độ phân giải HD cùng đường <strong>viền cong 2.5D</strong> mềm mại mở rộng góc nhìn nhưng vẫn gọn gàng khi cầm nắm.
+				</p>
+			</div>
+		</div>
+		<div class="j5-s1-right">
+			<p><img src="images/img-s1.png" alt=""></p>
+		</div>
+	</div>
+
+</div>
+<!--END S1-->
+
+<div class="j5-s2">
+	<div class="container">
+		<div class="j5-s2-info">
+			<h2 class="j5-s2-tit">Camera sáng rõ mọi khoảnh khắc</h2>
+			<p class="j5-s2-txt">
+				Với ống kính <strong>khẩu độ F1.9</strong> tăng độ sáng hình ảnh đỉnh cao. Camera sau <strong>độ phân giải 13MP</strong> mọi khoảnh khắc sẽ rõ nét, sống động nhất và chân thật đến từng chi tiết.
+				Camera trước với chế độ Selfie gốc rộng giúp bạn thoải mái lưu giữ hình ảnh của cả nhóm và bắt được những góc ảnh đẹp chân thật nhất.
+			</p>
+		</div>
+	</div>
+	<ul class="j5-s2-ul">
+		<li><p><img src="images/img-s2l.jpg" alt=""></p></li>
+		<li><p><img src="images/img-s2r.jpg" alt=""></p></li>
+	</ul>
+	<p class="j5-s2-img text-center"><img src="images/icon-s2-cam.png" alt=""></p>
+</div>
+<!--END S2-->
+<div class="j5-s3">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 col-xs-12">
+				<div class="j5-s3-info">
+					<h2 class="j5-s3-itit">Trải nghiệm mượt mà</h2>
+					<p class="j5-s3-itxt">
+						Máy tích hợp <strong>chip xử lý 4 nhân, RAM 2 GB,</strong> với điểm sáng là hệ điều hành mới <strong>Android 6.0</strong> đem đến trải nghiệm tốt hơn. <strong>Bộ nhớ trong 16 GB</strong> và bạn có thể gắn thêm <strong>thẻ nhớ ngoài</strong> lên đến <strong>256 GB</strong>
+					</p>
+					<p class="j5-s3-img"><img src="images/icon-ts.jpg" alt=""></p>
+				</div>
+			</div>
+			<div class="col-sm-6 col-xs-12">
+				<p class="j5-s3-rimg"><img src="images/img-s3.jpg" alt=""></p>
+			</div>
+		</div>
+	</div>
+</div>
+<!--END S3-->
+<div class="j5-s4">
+	<div class="j5-s4-left col-md-6 col-sm-12">
+		<div class="j5-s4-linfo">
+			<div class="j5-s4-litxt">
+				<h2>Bảo mật với cảm biến vân tay</h2>
+				<p>
+					Là một trong số ít điện thoại của hãng Samsung có giá tầm trung nhưng được tích hợp cảm biến vân tay dạng chạm, giúp mở khóa màn hình chỉ trong nháy mắt và nâng cao bảo mật.
+				</p>
+				<p><img src="images/icon-s4l.jpg" alt=""></p>
+			</div>
+			<div class="j5-s4-limg"><p><img src="images/img-s4l.jpg" alt=""></p></div>
+		</div>
+	</div>
+	<div class="j5-s4-right col-md-6 col-sm-12">
+		<div class="j5-s4-linfo j5-s4-rinfo">
+			<div class="j5-s4-litxt">
+				<h2>Thời lượng pin vượt trội</h2>
+				<p class="j5-s4-litxt2">
+					Dung lượng pin lâu hơn cho bạn thỏa thích trải nghiệm các nội dung đa phương tiện và không bỏ lỡ những màn game tuyệt hảo.
+				</p>
+				<p class="j5-s4-ricon"><img src="images/icon-s4r.jpg" alt=""></p>
+			</div>
+			<div class="j5-s4-limg j5-s4-rimg"><p><img src="images/img-s4r.jpg" alt=""></p></div>
+		</div>
+	</div>
+</div>
+<!--END S4-->
+<div class="p1-sec4 p1-sec4-tl">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-sm-12">
+				<h3 class="p1-s4tit"><strong>Thể lệ chương trình</strong></h3>
+				<div class="p1-s4ttle mCustomScrollbar">
+					<p><strong>Thời gian:</strong>Áp dụng từ 05/04/2016</p>
+					<p><strong>Ưu đãi:</strong> khách hàng mua Galaxy S7, S7 edge nhận được tới <strong>9 ưu đãi khủng</strong>:</p>
+					<ul>
+						<li><strong>1:</strong> Trả góp Home Credit 0% lãi suất, trả trước 40%, kỳ hạn 6 tháng </li>
+						<li><strong>2:</strong> Tặng Sạc dự phòng nhanh Samsung 5200mAh (không áp dụng trả góp 0%)</li>
+						<li><strong>3:</strong> Sim Đại Phát 0888xxxxx8 (không áp dụng trả góp 0%)</li>
+						<li><strong>4:</strong> 3 tháng cước 3G trị giá 210.000đ (không áp dụng trả góp 0%)</li>
+						<li><strong>5:</strong> Phiếu mua hàng 220.000đ áp dụng mua Sạc dự phòng 6000mAh hoặc 10000mAh</li>
+						<li><strong>6:</strong> Gói chăm sóc đặc quyền: 1 đổi 1, hỗ trợ kỹ thuật tận nhà, Hotline VIP <a href="http://fptshop.com.vn/samsung-galaxy-s7/dac-quyen">Xem chi tiết</a></li>
+						<li><strong>7:</strong> Gói ưu đãi đặc quyền: phòng chờ máy bay hạng thương gia, cafe/xem phim miễn phí rạp CGV, gói game-pack trị giá 200USD... <a href="http://fptshop.com.vn/samsung-galaxy-s7/dac-quyen">Xem chi tiết</a></li>
+						<li><strong>8:</strong> Cơ hội trúng thưởng 27 Galaxy S7</li>
+						<li><strong>9:</strong> Cơ hội trúng thưởng 300 Tivi Samsung 32”</li>
+					</ul>
+
+					<p><strong>Thời gian mở bán:</strong>Từ 18/03/2016</p>
+					<p><strong>Ưu đãi:</strong> khách hàng mua Galaxy S7, S7 edge chọn 1 trong 3 gói khuyến mãi sau:</p>
+					<ul>
+						<li><strong>KM1:</strong> Trả góp Home Credit 0% lãi suất, trả trước 40%, kỳ hạn 6 tháng</li>
+						<li><strong>KM2:</strong> Tặng Sạc dự phòng nhanh Samsung 5200mAh + Sim Đại Phát 088</li>
+						<li><strong>KM3:</strong> Trả góp 0% bằng thẻ tín dụng + Sạc dự phòng nhanh Samsung 5200mAh + Sim Đại Phát 088 (áp dụng từ 14h 22/03)</li>
+					</ul>
+					<p><strong>Ngoài 1 trong 3 gói khuyến mãi trên, khách hàng nhận thêm: </strong></p>
+					<ul>
+						<li><strong>Gói ưu đãi đặc quyền:</strong> phòng chờ máy bay hạng thương gia, cafe/xem phim miễn phí rạp CGV, gói game trị giá 200USD... <a style="text-decoration:underline;color:blue;" target="_blank" href="http://fptshop.com.vn/samsung-galaxy-s7/dac-quyen">Xem chi tiết</a></li>
+						<li><strong>Gói chăm sóc đặc quyền:</strong> 1 đổi 1, hỗ trợ kỹ thuật tận nhà, Hotline VIP <a style="text-decoration:underline;color:blue;" target="_blank" href="http://fptshop.com.vn/samsung-galaxy-s7/dac-quyen">Xem chi tiết</a></li>
+						<li><strong>Cơ hội trúng thưởng 27 Galaxy S7</strong> dành cho khách hàng mua hàng từ 01/03 - 30/04 (không áp dụng cho khách hàng đã trúng thưởng đợt 1).</li>
+						<li><strong>Khuyến mãi phụ kiện giảm tới 30%</strong> khi mua kèm <a style="text-decoration:underline;color:blue;" target="_blank" href="http://fptshop.com.vn/tin-tuc/Tin-khuyen-mai/giam-gia-phu-kien-theo-combo-khi-mua-galaxy-s7-s7-edge-tai-fptshop-39128">tại đây</a>.</li>
+					</ul>
+					<p><strong>Lưu ý:</strong> Không áp dụng đối với đơn hàng đặt cọc từ 01/03 đến 17/03.</p>
+					<p><strong>Thời gian đặt cọc: </strong>01/03/2016 - 22h00 17/03/2016</p>
+					<p><strong>Ưu đãi: </strong></p>
+					<p><strong>- Từ 01/03 đến 12h00 03/03:</strong> khách hàng may mắn có cơ hội nhận được</p>
+
+				</div>
+			</div>
+
+			<div class="col-md-6 col-sm-12 p1-s4dskh" style="display: block;">
+				<ul class="p1-s4dskh-ul clearfix">
+					<li><h3 class="p1-s4tit"><strong>Có <span>6.246</span> người chơi</strong></h3></li>
+					<li>
+						<div class="p1-s4search">
+							<input type="text" class="form-control" placeholder="Nhập số điện thoại để tìm kiếm">
+						</div>
+					</li>
+				</ul>
+				<div class="p1-s4table mCustomScrollbar">
+					<table class="table table-hover table-striped">
+						<thead>
+						<tr>
+							<td>STT</td>
+							<td>Họ tên</td>
+							<td>Điện thoại</td>
+							<td>Thời gian</td>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<td>123</td>
+							<td>Nguyễn Văn Anh</td>
+							<td>0986222xxx</td>
+							<td>20 phút trước</td>
+						</tr>
+						<tr>
+							<td>123</td>
+							<td>Nguyễn Văn Anh</td>
+							<td>0986222xxx</td>
+							<td>20 phút trước</td>
+						</tr>
+						<tr>
+							<td>123</td>
+							<td>Nguyễn Văn Anh</td>
+							<td>0986222xxx</td>
+							<td>20 phút trước</td>
+						</tr>
+						<tr>
+							<td>123</td>
+							<td>Nguyễn Văn Anh</td>
+							<td>0986222xxx</td>
+							<td>20 phút trước</td>
+						</tr>
+						<tr>
+							<td>123</td>
+							<td>Nguyễn Văn Anh</td>
+							<td>0986222xxx</td>
+							<td>20 phút trước</td>
+						</tr>
+						<tr>
+							<td>123</td>
+							<td>Nguyễn Văn Anh</td>
+							<td>0986222xxx</td>
+							<td>20 phút trước</td>
+						</tr>
+						<tr>
+							<td>123</td>
+							<td>Nguyễn Văn Anh</td>
+							<td>0986222xxx</td>
+							<td>20 phút trước</td>
+						</tr>
+						<tr>
+							<td>123</td>
+							<td>Nguyễn Văn Anh</td>
+							<td>0986222xxx</td>
+							<td>20 phút trước</td>
+						</tr>
+						<tr>
+							<td>123</td>
+							<td>Nguyễn Văn Anh</td>
+							<td>0986222xxx</td>
+							<td>20 phút trước</td>
+						</tr>
+						<tr>
+							<td>123</td>
+							<td>Nguyễn Văn Anh</td>
+							<td>0986222xxx</td>
+							<td>20 phút trước</td>
+						</tr>
+						<tr>
+							<td>123</td>
+							<td>Nguyễn Văn Anh</td>
+							<td>0986222xxx</td>
+							<td>20 phút trước</td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+				<p class="p1-s4tdmore"><a class="btn btn-default" href="javascript:;" title="">Xem thêm</a> </p>
+			</div>
+
+		</div>
+	</div>
+</div>
+<!--END THE LE-->
+<div class="opd-s7">
+	<div class="container">
+		<h2 class="opd-s7-tit">Bài viết mới nhất về Samsung Galaxy j5 Prime</h2>
+		<div class="opd-s7-slide">
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<a href="javascript:;">
+							<p><img src="images/img-slide.jpg" alt=""></p>
+							<p class="opd-s7-stxt">
+								Vài tính năng vui vẻ hay trên ColorOS của OPPO F1s: vân tay, khóa app, gợi ý tối ưu máy
+							</p>
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="javascript:;">
+							<p><img src="images/img-slide.jpg" alt=""></p>
+							<p class="opd-s7-stxt">
+								Vài tính năng vui vẻ hay trên ColorOS của OPPO F1s: vân tay, khóa app, gợi ý tối ưu máy
+							</p>
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="javascript:;">
+							<p><img src="images/img-slide.jpg" alt=""></p>
+							<p class="opd-s7-stxt">
+								Vài tính năng vui vẻ hay trên ColorOS của OPPO F1s: vân tay, khóa app, gợi ý tối ưu máy
+							</p>
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="javascript:;">
+							<p><img src="images/img-slide.jpg" alt=""></p>
+							<p class="opd-s7-stxt">
+								Vài tính năng vui vẻ hay trên ColorOS của OPPO F1s: vân tay, khóa app, gợi ý tối ưu máy
+							</p>
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="javascript:;">
+							<p><img src="images/img-slide.jpg" alt=""></p>
+							<p class="opd-s7-stxt">
+								Vài tính năng vui vẻ hay trên ColorOS của OPPO F1s: vân tay, khóa app, gợi ý tối ưu máy
+							</p>
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="javascript:;">
+							<p><img src="images/img-slide.jpg" alt=""></p>
+							<p class="opd-s7-stxt">
+								Vài tính năng vui vẻ hay trên ColorOS của OPPO F1s: vân tay, khóa app, gợi ý tối ưu máy
+							</p>
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="javascript:;">
+							<p><img src="images/img-slide.jpg" alt=""></p>
+							<p class="opd-s7-stxt">
+								Vài tính năng vui vẻ hay trên ColorOS của OPPO F1s: vân tay, khóa app, gợi ý tối ưu máy
+							</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--<div class="ttct-cmt">-->
+<!--<div class="container">-->
+<!--<div class="fshop-cmtbox" data-modul="3" id="wrapper-nt-comment"></div>-->
+<!--</div>-->
+<!--</div>-->
+
+<footer class="of-footer">
+	<div class="container">
+		<div class="of-footer-link">
+			<a target="_blank" href="http://fptshop.com.vn/huong-dan/huong-dan-mua-hang" title="Hướng dẫn mua hàng">Hướng dẫn mua hàng</a> |
+			<a target="_blank" href="http://fptshop.com.vn/ho-tro/chinh-sach-tra-gop" title="Trả góp">Trả góp</a> |
+			<a target="_blank" href="http://fptshop.com.vn/ho-tro/chinh-sach-bao-hanh" title="Chính sách bảo hành">Chính sách bảo hành</a>
+		</div>
+		<p>Công Ty Cổ Phần Bán Lẻ Kỹ Thuật Số FPT - 261,263 Khánh Hội, P5, Q4, TP. Hồ Chí Minh.</p>
+		<p>Điện thoại: 08.73023456. Fax: 08.39435773. Email: cskh@fptshop.com.vn</p>
+	</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>@(Model.SEOTitle)</title>
+    <meta name="description" content="FPT Shop">
+    <meta name="keywords" content="FPTSHOP" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="copyright" content="Công ty Cổ phần Bán lẻ Kỹ thuật số FPT">
+    <meta name="author" content="Công ty Cổ phần Bán lẻ Kỹ thuật số FPT">
+    <meta http-equiv="audience" content="General">
+    <meta name="resource-type" content="Document">
+    <meta name="distribution" content="Global">
+    <meta name="GENERATOR" content="Công ty Cổ phần Bán lẻ Kỹ thuật số FPT">
+    <meta property="fb:app_id" content="289591837916420" />
+
+    <meta property="article:publisher" content="https://www.facebook.com/FPTShopOnline" />
+    <meta property="article:author" content="https://www.facebook.com/FPTShopOnline" />
+    <meta property="og:image" content="@(FPTShop.Utils.Utility.GetUrlOriginalPicture(Model.PictureUrl ?? ""))" />
+    <meta property="og:title" content="FPTShop" />
+    <meta property="og:description" content="FPTShop" /> 
+	<!-- Favicons -->
+	<link rel="icon" href="images/favicon.ico">
+	<!-- Css -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/treset.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<!-- Js -->
+	<script src="js/libs/jquery-1.11.2.min.js"></script>
+	<script src="js/libs/bootstrap.min.js"></script>
+	<script src="js/functions.js"></script>
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<script src="js/libs/ie-emulation-modes-warning.js"></script>
+	<!--[if lt IE 9]>
+	<script src="js/libs/html5shiv.min.js"></script>
+	<script src="js/libs/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+<div class="of-header">
+	<div class="container">
+		<a href="http://fptshop.com.vn/" title="Fptshop.com.vn"><img class="of-logo" src="images/logo.png" alt="Fptshop.com.vn"></a>
+
+		<span class="of-iconmntop"><i class="glyphicon glyphicon-menu-hamburger"></i></span>
+		<ul class="of-menutop clearfix">
+			<li><a target="_blank" href="http://fptshop.com.vn/dien-thoai" title=""> <i class="of-imobile"></i> <span>Điện thoại</span> </a></li>
+			<li><a target="_blank" href="http://fptshop.com.vn/may-tinh-xach-tay" title=""> <i class="of-ilaptop"></i> <span>Laptop</span> </a></li>
+			<li><a target="_blank" href="http://fptshop.com.vn/apple" title=""> <i class="of-iapple"></i> <span>Apple</span> </a></li>
+
+			<li><a target="_blank" href="http://fptshop.com.vn/may-tinh-bang" title=""> <i class="of-itablet"></i> <span>Tablet</span> </a></li> 
+			<li><a target="_blank" href="http://fptshop.com.vn/phu-kien" title=""> <i class="of-ipkien"></i> <span>Phụ kiện</span> </a></li>
+			<li><a target="_blank" href="http://fptshop.com.vn/may-doi-tra" title=""> <i class="of-imdt"></i> <span>Máy đổi trả</span> </a></li>
+			<li><a target="_blank" href="http://fptshop.com.vn/sim-the" title=""> <i class="of-isimthe"></i> <span>Sim thẻ</span> </a></li> 
+			<li><a target="_blank" href="http://fptshop.com.vn/khuyen-mai" title=""> <i class="of-ikmai"></i> <span>Khuyến mãi</span> </a></li>
+			<li><a target="_blank" href="http://fptshop.com.vn/tin-tuc" title=""> <i class="of-itinhay"></i> <span>Tin hay</span> </a></li>
+			<li><a target="_blank" href="http://fptshop.com.vn/dien-dan" title=""> <i class="of-ihoidap"></i> <span>Hỏi đáp</span> </a></li>
+		</ul>
+
+		<div class="of-search">
+			<i class="of-isearch"></i> <span>Tìm kiếm</span>
+		</div>
+
+		<div class="of-call">
+			<a href="tel:18006601">
+				<span>Tư vấn miễn phí</span>
+				<p><i class="glyphicon glyphicon-earphone"></i>1800 6601</p>
+			</a>
+		</div>
+	</div>
+</div>
+
+<div class="of-searchbox">
+	<div class="of-searchbar">
+		<div class="container">
+			<a href="" title=""><img class="of-slogo" src="images/logo-mb.png" alt=""></a>
+			<div class="of-ipsearch input-group">
+				<span class="input-group-btn">
+					<button class="btn btn-default" type="button"><i class="glyphicon glyphicon-search"></i></button>
+				</span>
+				<input type="text" class="form-control" placeholder="Tìm kiếm Fptshop.com.vn">
+			</div>
+			<span class="of-closesearch">&#x2715;</span>
+		</div>
+	</div>
+</div>
+	<div class="ss-banner">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-push-6 col-md-6 col-md-12 ">
+					<div class="ss-banner-right">
+						<p><img src="images/title-km-1.png"></p>
+						<p class="ss-kp"><a href="#" class="btn-ss">Khám phá thêm</a>
+						</p>
+					</div>
+					
+				</div>
+				<div class="col-md-pull-6 col-md-6 col-md-12">
+					<p class="ss-banner-1"><img src="images/sp-1.png"></p>
+				</div>
+				
+			</div>
+		</div>
+		<p class="ss-banner-2"><img src="images/sp-1.png"></p>
+	</div>
+	<div class="ss-menu">
+		<div class="container">
+			<div class="row">
+				<p class="ss-menu-logo">
+					<img src="images/logo-mn.png">
+				</p>
+				<p class="ss-menu-right">
+					<a href="#" class="btn-ss">Khám phá ngay</a>
+					<ul class="menu-fixed">
+						<li><a href="#" class="menu-hover">ĐỔI CŨ LẤY MỚI</a></li>
+						<li><a href="#" class="menu-hover">TẶNG 100 TỦ LẠNH SAMSUNG</a></li>
+						<li><a href="#" class="menu-hover">BÌNH LUẬN</a></li>
+					</ul>
+				</p>
+	
+			</div>
+		</div>
+	</div>
+	<div class="ss-renew">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-sm-12">
+					<p class="ss-renew-left"><img src="images/title-km-2.png"></p>
+					<p class="ss-renew-left2"><img src="images/title-km-2mb.png"></p>
+					<p class="ss-kp"><a href="#" class="btn-ss">ĐỔI MỚI NGAY</a>
+						</p>
+				</div>
+				<div class="col-md-4 col-sm-12">
+					<p class="ss-renew-right"><img src="images/sp-2.png"></p>
+
+				</div>
+			</div>
+		</div>
+		<p class="ren-img"><img src="images/sp-2mb.png"></p>
+	</div>
+	<div class="ss-give-more">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-push-5 col-md-7 col-sm-12">
+					<p class="ss-renew-left"><img src="images/title-km-3.png"></p>
+					<p class="ss-renew-left1"><img src="images/title-km-3.png"></p>
+					<p class="ss-kp"><a href="#" class="btn-ss">MUA NGAY</a>
+					</p>
+				</div>
+				<div class="col-md-pull-7 col-md-5 col-sm-12">
+					<p class="ss-renew-right"><img src="images/sp-3.png"></p>
+					<p class="ss-renew-right1"><img src="images/sp-3.png"></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="ss-add">
+		<div class="container">
+			<div class="row">
+				<p class="ss-add-top">
+					<img src="images/s4.png">
+				</p>
+					<div class="col-md-3 col-sm-4 col-xs-6  ss-add-top1">
+						<div class="ss-add-1">
+							<div class="like">
+								<a href="#">
+									<p class="ss-add-fire"><span></span>Giảm 300.000đ</p>
+								<img src="images/prod.jpg">
+							</a>
+							</div>
+								<a href="#" class="text">Macbook Air 13 128GB MQD32aaaaaaaaaaaaa</a>
+								<div class="fs-dttrate">
+								 	<ul>
+								 		<li><span class="fs-dttr10"></span>
+								 		</li> <li><span class="fs-dttr10"></span>
+								 		</li><li><span class="fs-dttr10"></span></li>
+								 		<li><span class="fs-dttr05"></span></li>
+								 		<li><span class="fs-dttr00"></span></li>
+								 	</ul>
+								 		<p>(202)</p>
+								 </div>
+								 
+									<p class="ss-price"><a href="#">7.999.000<ins>đ</ins></a>
+									<del>7.999.000<ins>đ</ins></del></del>
+									</p>
+								<div class="ss-add-right">
+									<sub>KM</sub>
+									<p>Giảm ngay 3 triệu khi thanh toán Online bằng thẻ Mastercard (Từ 1/8 - 31/8)</p>
+								</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4 col-xs-6  ss-add-top1">
+						<div class="ss-add-1">
+							<div class="like">
+								<a href="#">
+									<p class="ss-add-fire"><span></span>Giảm 300.000đ</p>
+								<img src="images/prod.jpg">
+							</a>
+							</div>
+								<a href="#" class="text">Macbook Air 13 128GB MQD32aaaaaaaaaaaaa</a>
+								<div class="fs-dttrate">
+								 	<ul>
+								 		<li><span class="fs-dttr10"></span>
+								 		</li> <li><span class="fs-dttr10"></span>
+								 		</li><li><span class="fs-dttr10"></span></li>
+								 		<li><span class="fs-dttr05"></span></li>
+								 		<li><span class="fs-dttr00"></span></li>
+								 	</ul>
+								 		<p>(202)</p>
+								 </div>
+								 
+									<p class="ss-price"><a href="#">7.999.000 <ins>đ</ins></a>
+									<del>7.999.000<ins>đ</ins></del>
+									</p>
+								<div class="ss-add-right">
+									<sub>KM</sub>
+									<p>Giảm ngay 3 triệu khi thanh toán Online bằng thẻ Mastercard (Từ 1/8 - 31/8)</p>
+								</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4 col-xs-6  ss-add-top1">
+						<div class="ss-add-1">
+							<div class="like">
+								<a href="#">
+									<p class="ss-add-fire"><span></span>Giảm 300.000đ</p>
+								<img src="images/prod.jpg">
+							</a>
+							</div>
+								<a href="#" class="text">Macbook Air 13 128GB MQD32aaaaaaaaaaaaa</a>
+								<div class="fs-dttrate">
+								 	<ul>
+								 		<li><span class="fs-dttr10"></span>
+								 		</li> <li><span class="fs-dttr10"></span>
+								 		</li><li><span class="fs-dttr10"></span></li>
+								 		<li><span class="fs-dttr05"></span></li>
+								 		<li><span class="fs-dttr00"></span></li>
+								 	</ul>
+								 		<p>(202)</p>
+								 </div>
+								 
+									<p class="ss-price"><a href="#">7.999.000<ins>đ</ins></a>
+									<del>7.999.000<ins>đ</ins></del>
+									</p>
+								<div class="ss-add-right">
+									<sub>KM</sub>
+									<p>Giảm ngay 3 triệu khi thanh toán Online bằng thẻ Mastercard (Từ 1/8 - 31/8)</p>
+								</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4 col-xs-6  ss-add-top1">
+						<div class="ss-add-1">
+							<div class="like">
+								<a href="#">
+									<p class="ss-add-fire"><span></span>Giảm 300.000đ</p>
+								<img src="images/prod.jpg">
+							</a>
+							</div>
+								<a href="#" class="text">Macbook Air 13 128GB MQD32aaaaaaaaaaaaa</a>
+								<div class="fs-dttrate">
+								 	<ul>
+								 		<li><span class="fs-dttr10"></span>
+								 		</li> <li><span class="fs-dttr10"></span>
+								 		</li><li><span class="fs-dttr10"></span></li>
+								 		<li><span class="fs-dttr05"></span></li>
+								 		<li><span class="fs-dttr00"></span></li>
+								 	</ul>
+								 		<p>(202)</p>
+								 </div>
+								 
+									<p class="ss-price"><a href="#">7.999.000<ins>đ</ins></a>
+									<del>7.999.000<ins>đ</ins></del>
+									</p>
+								<div class="ss-add-right">
+									<sub>KM</sub>
+									<p>Giảm ngay 3 triệu khi thanh toán Online bằng thẻ Mastercard (Từ 1/8 - 31/8)</p>
+								</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4 col-xs-6  ss-add-top1">
+						<div class="ss-add-1">
+							<div class="like">
+								<a href="#">
+									<p class="ss-add-fire"><span></span>Giảm 300.000đ</p>
+								<img src="images/prod.jpg">
+							</a>
+							</div>
+								<a href="#" class="text">Macbook Air 13 128GB MQD32aaaaaaaaaaaaa</a>
+								<div class="fs-dttrate">
+								 	<ul>
+								 		<li><span class="fs-dttr10"></span>
+								 		</li> <li><span class="fs-dttr10"></span>
+								 		</li><li><span class="fs-dttr10"></span></li>
+								 		<li><span class="fs-dttr05"></span></li>
+								 		<li><span class="fs-dttr00"></span></li>
+								 	</ul>
+								 		<p>(202)</p>
+								 </div>
+								 
+									<p class="ss-price"><a href="#">7.999.000<ins>đ</ins></a>
+									<del>7.999.000<ins>đ</ins></del>
+									</p>
+								<div class="ss-add-right">
+									<sub>KM</sub>
+									<p>Giảm ngay 3 triệu khi thanh toán Online bằng thẻ Mastercard (Từ 1/8 - 31/8)</p>
+								</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4 col-xs-6  ss-add-top1">
+						<div class="ss-add-1">
+							<div class="like">
+								<a href="#">
+									<p class="ss-add-fire"><span></span>Giảm 300.000đ</p>
+								<img src="images/prod.jpg">
+							</a>
+							</div>
+								<a href="#" class="text">Macbook Air 13 128GB MQD32aaaaaaaaaaaaa</a>
+								<div class="fs-dttrate">
+								 	<ul>
+								 		<li><span class="fs-dttr10"></span>
+								 		</li> <li><span class="fs-dttr10"></span>
+								 		</li><li><span class="fs-dttr10"></span></li>
+								 		<li><span class="fs-dttr05"></span></li>
+								 		<li><span class="fs-dttr00"></span></li>
+								 	</ul>
+								 		<p>(202)</p>
+								 </div>
+								 
+									<p class="ss-price"><a href="#">7.999.000<ins>đ</ins></a>
+									<del>7.999.000<ins>đ</ins></del>
+									</p>
+								<div class="ss-add-right">
+									<sub>KM</sub>
+									<p>Giảm ngay 3 triệu khi thanh toán Online bằng thẻ Mastercard (Từ 1/8 - 31/8)</p>
+								</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4 col-xs-6  ss-add-top1">
+						<div class="ss-add-1">
+							<div class="like">
+								<a href="#">
+									<p class="ss-add-fire"><span></span>Giảm 300.000đ</p>
+								<img src="images/prod.jpg">
+							</a>
+							</div>
+								<a href="#" class="text">Macbook Air 13 128GB MQD32aaaaaaaaaaaaa</a>
+								<div class="fs-dttrate">
+								 	<ul>
+								 		<li><span class="fs-dttr10"></span>
+								 		</li> <li><span class="fs-dttr10"></span>
+								 		</li><li><span class="fs-dttr10"></span></li>
+								 		<li><span class="fs-dttr05"></span></li>
+								 		<li><span class="fs-dttr00"></span></li>
+								 	</ul>
+								 		<p>(202)</p>
+								 </div>
+								 
+									<p class="ss-price"><a href="#">7.999.000<ins>đ</ins></a>
+									<del>7.999.000<ins>đ</ins></del>
+									</p>
+								<div class="ss-add-right">
+									<sub>KM</sub>
+									<p>Giảm ngay 3 triệu khi thanh toán Online bằng thẻ Mastercard (Từ 1/8 - 31/8)</p>
+								</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4 col-xs-6  ss-add-top1">
+						<div class="ss-add-1">
+							<div class="like">
+								<a href="#">
+									<p class="ss-add-fire"><span></span>Giảm 300.000đ</p>
+								<img src="images/prod.jpg">
+							</a>
+							</div>
+								<a href="#" class="text">Macbook Air 13 128GB MQD32aaaaaaaaaaaaa</a>
+								<div class="fs-dttrate">
+								 	<ul>
+								 		<li><span class="fs-dttr10"></span>
+								 		</li> <li><span class="fs-dttr10"></span>
+								 		</li><li><span class="fs-dttr10"></span></li>
+								 		<li><span class="fs-dttr05"></span></li>
+								 		<li><span class="fs-dttr00"></span></li>
+								 	</ul>
+								 		<p>(202)</p>
+								 </div>
+								 
+									<p class="ss-price"><a href="#">7.999.000 <ins>đ</ins></a>
+									<del>7.999.000<ins>đ</ins></del>
+									</p>
+								<div class="ss-add-right">
+									<sub>KM</sub>
+									<p>Giảm ngay 3 triệu khi thanh toán Online bằng thẻ Mastercard (Từ 1/8 - 31/8)</p>
+								</div>
+						</div>
+					</div>
+			</div>
+		<p class="ss-kp"><a href="#" class="btn-ss">XEM THÊM</a></p>
+	</div>
+	<div class="ss-add">
+		<div class="container">
+			<div class="row">
+				<p class="ss-add-top">
+					<img src="images/s5.png">
+				</p>
+					<div class="col-md-3 col-sm-4 col-xs-6  ss-add-top1">
+						<div class="ss-add-1">
+							<div class="like">
+								<a href="#">
+									<p class="ss-add-fire"><span></span>Giảm 300.000đ</p>
+								<img src="images/prod.jpg">
+							</a>
+							</div>
+							<ul>
+								<a href="#">Macbook Air 13 128GB MQD32aaaaaaaaaaaaa</a>
+								<div class="fs-dttrate">
+								 	<ul>
+								 		<li><span class="fs-dttr10"></span>
+								 		</li> <li><span class="fs-dttr10"></span>
+								 		</li><li><span class="fs-dttr10"></span></li>
+								 		<li><span class="fs-dttr05"></span></li>
+								 		<li><span class="fs-dttr00"></span></li>
+								 	</ul>
+								 		<p>(202)</p>
+								 </div>
+								 
+									<p class="ss-price"><a href="#">7.999.000 <ins>đ</ins></a><del>7.999.000<ins>đ</ins></del></p>
+								<div class="ss-add-right">
+									<sub>KM</sub>
+									<p>Giảm ngay 3 triệu khi thanh toán Online bằng thẻ Mastercard (Từ 1/8 - 31/8)</p>
+								</div>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4 col-xs-6  ss-add-top1">
+						<div class="ss-add-1">
+							<div class="like">
+								<a href="#">
+									<p class="ss-add-fire"><span></span>Giảm 300.000đ</p>
+									<img src="images/prod.jpg">
+								</a>
+								
+							</div>
+							<ul>
+								<a href="#">Macbook Air 13 128GB MQD32aaaaaaaaaaaaa</a>
+								<div class="fs-dttrate">
+								 	<ul>
+								 		<li><span class="fs-dttr10"></span>
+								 		</li> <li><span class="fs-dttr10"></span>
+								 		</li><li><span class="fs-dttr10"></span></li>
+								 		<li><span class="fs-dttr05"></span></li>
+								 		<li><span class="fs-dttr00"></span></li>
+								 	</ul>
+								 		<p>(202)</p>
+								 </div>
+								 
+									<p class="ss-price"><a href="#">7.999.000<ins>đ</ins></a><del>7.999.000<ins>đ</ins></del></p>
+								<div class="ss-add-right">
+									<sub>KM</sub>
+									<p>Giảm ngay 3 triệu khi thanh toán Online bằng thẻ Mastercard (Từ 1/8 - 31/8)</p>
+								</div>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4 col-xs-6  ss-add-top1">
+						<div class="ss-add-1">
+							<div class="like">
+								<a href="#">
+									<p class="ss-add-fire"><span></span>Giảm 300.000đ</p>
+									<img src="images/prod.jpg">
+								</a>
+							</div>
+							<ul>
+								<a href="#">Macbook Air 13 128GB MQD32aaaaaaaaaaaaa</a>
+								<div class="fs-dttrate">
+								 	<ul>
+								 		<li><span class="fs-dttr10"></span>
+								 		</li> <li><span class="fs-dttr10"></span>
+								 		</li><li><span class="fs-dttr10"></span></li>
+								 		<li><span class="fs-dttr05"></span></li>
+								 		<li><span class="fs-dttr00"></span></li>
+								 	</ul>
+								 		<p>(202)</p>
+								 </div>
+								 
+									<p class="ss-price"><a href="#">7.999.000<ins>đ</ins></a><del>7.999.000<ins>đ</ins></del></p>
+								<div class="ss-add-right">
+									<sub>KM</sub>
+									<p>Giảm ngay 3 triệu khi thanh toán Online bằng thẻ Mastercard (Từ 1/8 - 31/8)</p>
+								</div>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4 col-xs-6  ss-add-top1">
+						<div class="ss-add-1">
+							<div class="like">
+								<a href="#">
+									<p class="ss-add-fire"><span></span>Giảm 300.000đ</p>
+									<img src="images/prod.jpg">
+								</a>
+							</div>
+							<ul>
+								<a href="#">Macbook Air 13 128GB MQD32aaaaaaaaaaaaa</a>
+								<div class="fs-dttrate">
+								 	<ul>
+								 		<li><span class="fs-dttr10"></span>
+								 		</li> <li><span class="fs-dttr10"></span>
+								 		</li><li><span class="fs-dttr10"></span></li>
+								 		<li><span class="fs-dttr05"></span></li>
+								 		<li><span class="fs-dttr00"></span></li>
+								 	</ul>
+								 		<p>(202)</p>
+								 </div>
+								 
+									<p class="ss-price"><a href="#">7.999.000<ins>đ</ins></a><del>7.999.000<ins>đ</ins></del></p>
+								<div class="ss-add-right">
+									<sub>KM</sub>
+									<p>Giảm ngay 3 triệu khi thanh toán Online bằng thẻ Mastercard (Từ 1/8 - 31/8)</p>
+								</div>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4 col-xs-6  ss-add-top1">
+						<div class="ss-add-1">
+							<div class="like">
+								<a href="#">
+									<p class="ss-add-fire"><span></span>Giảm 300.000đ</p>
+									<img src="images/prod.jpg">
+								</a>
+							</div>
+							<ul>
+								<a href="#">Macbook Air 13 128GB MQD32aaaaaaaaaaaaa</a>
+								<div class="fs-dttrate">
+								 	<ul>
+								 		<li><span class="fs-dttr10"></span>
+								 		</li> <li><span class="fs-dttr10"></span>
+								 		</li><li><span class="fs-dttr10"></span></li>
+								 		<li><span class="fs-dttr05"></span></li>
+								 		<li><span class="fs-dttr00"></span></li>
+								 	</ul>
+								 		<p>(202)</p>
+								 </div>
+								 
+									<p class="ss-price"><a href="#">7.999.000 <ins>đ</ins></a><del>7.999.000 <ins>đ</ins></del></p>
+								<div class="ss-add-right">
+									<sub>KM</sub>
+									<p>Giảm ngay 3 triệu khi thanh toán Online bằng thẻ Mastercard (Từ 1/8 - 31/8)</p>
+								</div>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4 col-xs-6  ss-add-top1">
+						<div class="ss-add-1">
+							<div class="like">
+								<a href="#">
+									<p class="ss-add-fire"><span></span>Giảm 300.000đ</p>
+									<img src="images/prod.jpg">
+								</a>
+							</div>
+							<ul>
+								<a href="#">Macbook Air 13 128GB MQD32aaaaaaaaaaaaa</a>
+								<div class="fs-dttrate">
+								 	<ul>
+								 		<li><span class="fs-dttr10"></span>
+								 		</li> <li><span class="fs-dttr10"></span>
+								 		</li><li><span class="fs-dttr10"></span></li>
+								 		<li><span class="fs-dttr05"></span></li>
+								 		<li><span class="fs-dttr00"></span></li>
+								 	</ul>
+								 		<p>(202)</p>
+								 </div>
+								 
+									<p class="ss-price"><a href="#">7.999.000 <ins>đ</ins></a><del>7.999.000 <ins>đ</ins></del></p>
+								<div class="ss-add-right">
+									<sub>KM</sub>
+									<p>Giảm ngay 3 triệu khi thanh toán Online bằng thẻ Mastercard (Từ 1/8 - 31/8)</p>
+								</div>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4 col-xs-6  ss-add-top1">
+						<div class="ss-add-1">
+							<div class="like">
+								<a href="#">
+									<p class="ss-add-fire"><span></span>Giảm 300.000đ</p>
+									<img src="images/prod.jpg">
+								</a>
+							</div>
+							<ul>
+								<a href="#">Macbook Air 13 128GB MQD32aaaaaaaaaaaaa</a>
+								<div class="fs-dttrate">
+								 	<ul>
+								 		<li><span class="fs-dttr10"></span>
+								 		</li> <li><span class="fs-dttr10"></span>
+								 		</li><li><span class="fs-dttr10"></span></li>
+								 		<li><span class="fs-dttr05"></span></li>
+								 		<li><span class="fs-dttr00"></span></li>
+								 	</ul>
+								 		<p>(202)</p>
+								 </div>
+								 
+									<p class="ss-price"><a href="#">7.999.000 <ins>đ</ins></a><del>7.999.000 <ins>đ</ins></del></p>
+								<div class="ss-add-right">
+									<sub>KM</sub>
+									<p>Giảm ngay 3 triệu khi thanh toán Online bằng thẻ Mastercard (Từ 1/8 - 31/8)</p>
+								</div>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4 col-xs-6  ss-add-top1">
+						<div class="ss-add-1">
+							<div class="like">
+								<a href="#">
+									<p class="ss-add-fire"><span></span>Giảm 300.000đ</p>
+									<a href="#"><img src="images/prod.jpg"></a>
+								</a>
+							</div>
+							<ul>
+								<a href="#">Macbook Air 13 128GB MQD32aaaaaaaaaaaaa</a>
+								<div class="fs-dttrate">
+								 	<ul>
+								 		<li><span class="fs-dttr10"></span>
+								 		</li> <li><span class="fs-dttr10"></span>
+								 		</li><li><span class="fs-dttr10"></span></li>
+								 		<li><span class="fs-dttr05"></span></li>
+								 		<li><span class="fs-dttr00"></span></li>
+								 	</ul>
+								 		<p>(202)</p>
+								 </div>
+								 
+									<p class="ss-price"><a href="#">7.999.000 <ins>đ</ins></a><del>7.999.000 <ins>đ</ins></del></p>
+								<div class="ss-add-right">
+									<sub>KM</sub>
+									<p>Giảm ngay 3 triệu khi thanh toán Online bằng thẻ Mastercard (Từ 1/8 - 31/8)</p>
+								</div>
+							</ul>
+						</div>
+					</div>
+			</div>
+				<p class="ss-kp"><a href="#" class="btn-ss">XEM THÊM</a>
+			</p>
+		</div>
+	</div>
+<footer class="of-footer">
+	<div class="container">
+		<div class="of-footer-link">
+			<a target="_blank" href="http://fptshop.com.vn/huong-dan/huong-dan-mua-hang" title="Hướng dẫn mua hàng">Hướng dẫn mua hàng</a> |
+			<a target="_blank" href="http://fptshop.com.vn/ho-tro/chinh-sach-tra-gop" title="Trả góp">Trả góp</a> |
+			<a target="_blank" href="http://fptshop.com.vn/ho-tro/chinh-sach-bao-hanh" title="Chính sách bảo hành">Chính sách bảo hành</a>
+		</div>
+		<p>Công Ty Cổ Phần Bán Lẻ Kỹ Thuật Số FPT - 261-263 Khánh Hội, P5, Q4, TP. Hồ Chí Minh.</p>
+		<p>Điện thoại: 028.73023456. Fax: 028.39435773. Email: cskh@fptshop.com.vn</p>
+	</div>
+</footer>
+</body>
+</html>
